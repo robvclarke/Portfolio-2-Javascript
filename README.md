@@ -8,9 +8,13 @@ My idea for the Portfolio 2 project was to code a quiz using 8bit graphics as I 
 
 ## Design
 
+I designed all the graphics in Adobe Illustrator. I used the grid and live paint tools to create the 8bit style retro graphics. 
+
+![Graphics](/assets/images/graphics.png)
+
 One of my key learnings from the first portfolio project was the practicality of designing mobile first so I began with the homepage, main quiz page,and about page, a game over page and a quiz completed page. 
 
-![Moodboard](/assets/images/mobile_screens.png)
+![Mobile Screens](/assets/images/mobile_screens.png)
 
 The link to the Pintrest moodboard I created can be found here [Moodboard](https://pin.it/nPuxeAm)
 
