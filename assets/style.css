@@ -1,0 +1,30 @@
+/* CSS for HomeScreen */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    justify-content: flex-end;
+}
+
+.button-content {
+display: flex;
+flex-direction: column;
+}
+
+button {
+margin: 20px;
+min-width: 200px;
+background-color: transparent !important;
+border: none;
+}
+
+.button {
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
