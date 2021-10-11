@@ -24,6 +24,14 @@ display: flex;
 justify-content: center;
 }
 
+.quiz {
+    background: #86C1DC;
+}
+
+#question, .question-score {
+    display: flex;
+    justify-content: center;
+}
 
 
 
