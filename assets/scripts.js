@@ -63,10 +63,17 @@ function checkAnswer(userAnswer) {
         console.log(lives);
         if (lives === 0) {
             window.location.href='gameover.html';
+            document.getElementById('final-score').innerHTML = points;
         }
     }
 
     question++;      // add 1 to question
     document.getElementById('question').innerHTML = questions[question].text;
     document.getElementById('question-number').innerHTML = (question +1) ;
+}
+
+window.onload = function updateScore () {
+    if (window.location.pathname === '/gameover.html') {
+        document.getElementById('final-score').innerHTML = points;
+    }
 }
