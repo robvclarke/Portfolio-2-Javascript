@@ -62,8 +62,7 @@ function checkAnswer(userAnswer) {
         lives--; // remove 1 from Lives
         console.log(lives);
         if (lives === 0) {
-            window.location.href='gameover.html';
-            document.getElementById('final-score').innerHTML = points;
+            window.location.href='gameover.html?score='+ points;
         }
     }
 
@@ -72,8 +71,9 @@ function checkAnswer(userAnswer) {
     document.getElementById('question-number').innerHTML = (question +1) ;
 }
 
+// Check url score when gameover page loads
+
 window.onload = function updateScore () {
-    if (window.location.pathname === '/gameover.html') {
-        document.getElementById('final-score').innerHTML = points;
-    }
+    var search = window.location.search[7]; // take score from url
+    document.getElementById('final-score').innerHTML = search;
 }
