@@ -10,18 +10,26 @@ p {
 
 #header {
     background-color: #131B42;
+    height: 4em;
 }
 .lives-area img {
     height: 3em;
     padding: .1em;
+    padding-top: 1em;
     display: inline-block;
     line-height: normal;
+}
+
+.col.score{
+    color:white;
+    padding-top: 1.2em;
 }
 
 .lives_text {
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-weight: 900;
+    line-height: normal;
 }
 
 .button-content {
@@ -47,6 +55,7 @@ justify-content: center;
 
 #question_one , .question-score {
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
 
 
