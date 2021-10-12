@@ -26,9 +26,21 @@ p {
 }
 
 #main-logo {
-    margin-top: 8em;
+    margin-top: 5em;
     margin-left: 40%;
     margin-right: 40%;
+    margin-bottom: 3em;
+}
+
+#main-logo img {
+    height: 20em;
+}
+
+#homepage_text {
+    margin-top: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3em;
 }
 
 .lives-area img {
@@ -53,21 +65,32 @@ p {
     padding-top: 1.2em;
 }
 
-.button-content {
-display: flex;
-flex-direction: column;
+.play_button {
+    background-color: transparent !important;
+    border: none;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.play_button {
+    background-color: transparent !important;
+    border: none;
+    margin: 20px;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 button {
 margin: 20px;
-min-width: 200px;
 background-color: transparent !important;
 border: none;
-}
-
-.button {
-display: flex;
-justify-content: center;
+display: inline-block;
+text-align: center;
 }
 
 .quiz, .question {
