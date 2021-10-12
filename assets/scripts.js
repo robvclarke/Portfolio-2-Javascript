@@ -58,11 +58,12 @@ function checkAnswer(userAnswer) {
         points++;                                                       // add 1 to point 
         document.getElementById('score').innerHTML = points;    
     } else {
+        document.getElementById('life' + lives).innerHTML = '';  // target the correct life and remove it
         lives--; // remove 1 from Lives
         console.log(lives);
     }
 
     question++;      // add 1 to question
     document.getElementById('question').innerHTML = questions[question].text;
-    document.getElementById('question-number').innerHTML = question;
+    document.getElementById('question-number').innerHTML = (question +1) ;
 }
