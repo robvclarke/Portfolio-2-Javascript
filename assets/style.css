@@ -8,6 +8,10 @@ p {
     font-family: 'Roboto Mono', monospace; ;
 }
 
+a, button {
+    cursor: pointer !important;
+}
+
 #header {
     background-color: #131B42;
     height: 4em;
@@ -86,19 +90,13 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
-.play_button {
-    background-color: transparent !important;
-    border: none;
-    margin-left: 30%;
-    text-align: center;
-}
-
 
 .play_button {
     background-color: transparent !important;
     border: none;
-    margin: 20px;
+    margin: 20px 30% 20px 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .button-group {
