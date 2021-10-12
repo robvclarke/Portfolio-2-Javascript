@@ -25,6 +25,12 @@ p {
 
 }
 
+#main-logo {
+    margin-top: 8em;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
 .lives-area img {
     height: 3em;
     padding: .1em;
