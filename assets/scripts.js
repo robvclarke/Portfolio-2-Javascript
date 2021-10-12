@@ -2,6 +2,7 @@
 
 var points = 0;
 var question = 0;
+var lives = 3;
 
 // Array of objects containing the questions and anwsers
 
@@ -54,12 +55,11 @@ const questions =
 function checkAnswer(userAnswer) {
 
     if (questions[question].answer === userAnswer) {
-        points++;
+        points++;                                                       // add 1 to point 
         document.getElementById('score').innerHTML = points;
     } 
 
-    question++;      
+    question++;      // add 1 to question
     document.getElementById('question').innerHTML = questions[question].text;
     document.getElementById('question-number').innerHTML = question;
-
 }
