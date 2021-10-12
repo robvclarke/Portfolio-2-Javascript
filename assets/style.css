@@ -12,24 +12,39 @@ p {
     background-color: #131B42;
     height: 4em;
 }
+
+#home_background{
+    background-image: url('/assets/images/home_background.svg');
+    background-repeat: none;
+    background-size: cover;
+    top: 0%;
+    bottom:0%;
+    left:0%;
+    right: 0%;
+    position:absolute;
+
+}
+
 .lives-area img {
     height: 3em;
     padding: .1em;
     padding-top: 1em;
     display: inline-block;
-    line-height: normal;
+    text-align: center;
+    align-items: center;
 }
-
-.col.score{
-    color:white;
-    padding-top: 1.2em;
-}
-
 .lives_text {
     font-family: 'Roboto Mono', monospace;
     color: white;
     font-weight: 900;
-    line-height: normal;
+    padding-top: 4em;
+    text-align: center;
+}
+
+
+.col.score{
+    color:white;
+    padding-top: 1.2em;
 }
 
 .button-content {
