@@ -62,18 +62,18 @@ function checkAnswer(userAnswer) {
         lives--; // remove 1 from Lives
         console.log(lives);
         if (lives === 0) {
-            window.location.href='gameover.html?score='+ points;
+            window.location.href='gameover.html?score='+ points;  //  redirect to gameover screen
         }
     }
 
     question++;      // add 1 to question
-    document.getElementById('question').innerHTML = questions[question].text;
-    document.getElementById('question-number').innerHTML = (question +1) ;
+    document.getElementById('question').innerHTML = questions[question].text;   //  Update Question text
+    document.getElementById('question-number').innerHTML = (question +1) ;  //  Update Question number
 }
 
 // Check url score when gameover page loads
 
 window.onload = function updateScore () {
     var search = window.location.search[7]; // take score from url
-    document.getElementById('final-score').innerHTML = search;
+    document.getElementById('final-score').innerHTML = search; 
 }
