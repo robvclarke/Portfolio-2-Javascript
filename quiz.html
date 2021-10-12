@@ -6,33 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <title>Dublin Transport Game</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- My CSS file -->
     <link rel="stylesheet" href="/assets/style.css">
+    
 </head>
 <body class="quiz">
 
-    <!-- Overall Score -->
+    <!-- Overall Score and lives header-->
 
-    <div class='nav'> 
-        <p>Your score:<span id='score'>0</span></p>
-    </div>
+    <section id="header">
+        <div class="container">
 
-    <!-- Lives -->
+        <div class="row">
 
-    <div class="lives-area">
-        <span class="lives_text">Lives:</span><span><img src="assets/images/dublin_castle.svg"></span><span><img src="assets/images/dublin_castle.svg"></span><span><img src="assets/images/dublin_castle.svg"></span>
-    </div>
-    
+          <div class="col">
+            <p>Your score:<span id='score'>0</span></p>
+          </div>
+
+          <div class="col">
+
+            <div class="lives-area">
+            <span class="lives_text">Lives:</span><span><img src="assets/images/dublin_castle.svg"></span><span><img src="assets/images/dublin_castle.svg"></span><span><img src="assets/images/dublin_castle.svg"></span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
 
     <!-- Question Number -->
 
-    <div class="main">
-        <div class="question-score">
-            <span>Question</span><span id='question-number'>0</span><span>/10</span>
+    <div class="container">
+        <div class="row mt-1">
+                <div class="question-score">
+                    <span>Question</span><span id='question-number'>0</span><span>/10</span>
+                </div>
         </div>
+    
 
-        <div id="question">
-            <h1 id="question_one">Which of these Opened in 1984?</h1>
+    
+        <div class="row mt-1">
+                <div id="question">
+                    <h1 id="question_one">Which of these Opened in 1984?</h1>
+                </div>
         </div>
+    
+    </div>
+
 
         <!-- Three buttons -->
 
