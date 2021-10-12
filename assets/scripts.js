@@ -2,7 +2,7 @@
 
 var points = 0;
 var question = 0;
-var lives = [];
+var lives = 3;
 
 // Array of objects containing the questions and anwsers
 
@@ -60,6 +60,8 @@ function checkAnswer(userAnswer) {
     } 
 
     question++;      // add 1 to question
+    lives--;         // remove 1 from Lives
     document.getElementById('question').innerHTML = questions[question].text;
     document.getElementById('question-number').innerHTML = question;
 }
+console.log(lives);
