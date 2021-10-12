@@ -50,18 +50,19 @@ const questions =
     }
 ] 
 
-// Logic for checking if answers are correct
+// Logic for checking if answers are correct and removing life
 
 function checkAnswer(userAnswer) {
 
     if (questions[question].answer === userAnswer) {
         points++;                                                       // add 1 to point 
-        document.getElementById('score').innerHTML = points;
-    } 
+        document.getElementById('score').innerHTML = points;    
+    } else {
+        lives--; // remove 1 from Lives
+        console.log(lives);
+    }
 
     question++;      // add 1 to question
-    lives--;         // remove 1 from Lives
     document.getElementById('question').innerHTML = questions[question].text;
     document.getElementById('question-number').innerHTML = question;
 }
-console.log(lives);
