@@ -4,7 +4,7 @@
 
 /* CSS for HomeScreen & Quiz */
 
-p {
+p, span {
     font-family: 'Roboto Mono', monospace; ;
 }
 
@@ -148,6 +148,11 @@ text-align: center;
 .three-buttons img {
     height: 10em;
     
+}
+.final-score {
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 
