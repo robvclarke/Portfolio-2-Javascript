@@ -61,6 +61,9 @@ function checkAnswer(userAnswer) {
         document.getElementById('life' + lives).innerHTML = '';  // target the correct life and remove it
         lives--; // remove 1 from Lives
         console.log(lives);
+        if (lives === 0) {
+            window.location.href='gameover.html';
+        }
     }
 
     question++;      // add 1 to question
