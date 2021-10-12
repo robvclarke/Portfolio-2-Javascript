@@ -2,7 +2,7 @@
 
 var points = 0;
 var question = 0;
-var lives = 3;
+var lives = [];
 
 // Array of objects containing the questions and anwsers
 

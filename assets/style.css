@@ -4,6 +4,19 @@
 
 /* CSS for HomeScreen & Quiz */
 
+.lives-area img {
+    height: 3em;
+    padding: .1em;
+    display: inline-block;
+    line-height: normal;
+}
+
+.lives_text {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+
+
 .main {
     display: flex;
     flex-direction: column;
@@ -32,10 +45,15 @@ justify-content: center;
     background: #86C1DC;
 }
 
+#question_one{
+    font-family: 'Roboto Mono', monospace;
+}
+
 #question, .question-score {
     display: flex;
     justify-content: center;
 }
+
 
 
 
