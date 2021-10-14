@@ -82,3 +82,13 @@ window.onload = function updateScore () {
     document.getElementById('final-score').innerHTML = search; 
 }
 
+window.onload = function updateScore () {
+    var search = window.location.search[7]; // take score from url
+    if (window.location.pathname == '/quizcomplete.html' && lives === 3) {search = 10}
+    document.getElementById('final-score').innerHTML = search; 
+}
+
+
+
+
+
