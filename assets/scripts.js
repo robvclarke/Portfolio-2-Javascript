@@ -56,7 +56,7 @@ function checkAnswer(userAnswer) {
 
     if (questions[question].answer === userAnswer) {
         points++;                                                       // add 1 to point 
-        document.getElementById('score').innerHTML = points;    
+        document.getElementById('score').innerHTML = points;
     } else {
         document.getElementById('life' + lives).innerHTML = '';  // target the correct life and remove it
         lives--; // remove 1 from Lives
@@ -70,6 +70,12 @@ function checkAnswer(userAnswer) {
     document.getElementById('question').innerHTML = questions[question].text;   //  Update Question text
     document.getElementById('question-number').innerHTML = (question +1) ;  //  Update Question number
 }
+
+function endQuiz() {
+    if (question === 9 && questions[question].answer === userAnswer) {
+        window.location.href = "https://8000-harlequin-swordfish-gnmwc991.ws-eu17.gitpod.io/quizcomplete.html";
+    }
+} 
 
 // Check url score when gameover page loads
 
