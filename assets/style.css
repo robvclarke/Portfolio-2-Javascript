@@ -66,12 +66,14 @@ a, button {
     margin-left: 30%;
     margin-right: 30%;
     min-width: 300px;
+    z-index: 1;
     
 }
 
 #quiz-complete-graphic img {
     bottom: 0px;
     margin-bottom: 0em;
+    height: 550px;
     
 }
 
@@ -135,6 +137,10 @@ a, button {
     font-family: 'Roboto Mono', monospace;
 }
 
+.score img {
+    margin-right: 1em;
+}
+
 
 .play_button {
     background-color: transparent !important;
@@ -142,6 +148,7 @@ a, button {
     margin: 20px 30% 20px 20px;
     text-align: center;
     cursor: pointer;
+    z-index: 2;
 }
 
 .button-group {
@@ -206,6 +213,10 @@ footer {
 .sunglasses {
     margin-bottom: 0;
     bottom: 0%;
+}
+
+.bottom-row {
+    margin-left: 23%;
 }
 
 
