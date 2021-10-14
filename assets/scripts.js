@@ -67,15 +67,13 @@ function checkAnswer(userAnswer) {
     }
 
     question++;      // add 1 to question
+    if (question === 10) {
+        window.location.href='quizcomplete.html' // Go to Quiz Complete page after final question
+    }
     document.getElementById('question').innerHTML = questions[question].text;   //  Update Question text
     document.getElementById('question-number').innerHTML = (question +1) ;  //  Update Question number
 }
 
-function endQuiz() {
-    if (question === 10 && questions[question].answer === userAnswer) {
-        window.location.href = '/quizcomplete.html';
-    }s
-} 
 
 // Check url score when gameover page loads
 
