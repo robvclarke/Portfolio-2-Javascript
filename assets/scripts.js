@@ -72,9 +72,9 @@ function checkAnswer(userAnswer) {
 }
 
 function endQuiz() {
-    if (question === 9 && questions[question].answer === userAnswer) {
-        window.location.href = "https://8000-harlequin-swordfish-gnmwc991.ws-eu17.gitpod.io/quizcomplete.html";
-    }
+    if (question === 10 && questions[question].answer === userAnswer) {
+        window.location.href = '/quizcomplete.html';
+    }s
 } 
 
 // Check url score when gameover page loads
