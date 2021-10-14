@@ -41,15 +41,6 @@ a, button {
     position:absolute;
 }
 
-.complete-background{
-    background: #86C1DC;
-    top: 0%;
-    bottom:0%;
-    left:0%;
-    right: 0%;
-    position:absolute;
-
-}
 
 #main-logo {
     margin-top: 5em;
@@ -58,22 +49,24 @@ a, button {
     margin-bottom: 3em;
 }
 
-
-
 #game-over-graphic {
     bottom: 0px;
     margin-bottom: 0em;
     width: 30%;
     margin-left: 30%;
     margin-right: 30%;
+    position: fixed;
 }
 
 #quiz-complete-graphic {
     bottom: 0px;
+    position: fixed;
     margin-bottom: 0em;
     width: 30%;
     margin-left: 30%;
     margin-right: 30%;
+    min-width: 500px;
+    
 }
 
 #quiz-complete-graphic img {
