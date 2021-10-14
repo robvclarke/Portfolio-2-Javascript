@@ -77,6 +77,14 @@ a, button {
     margin-bottom: 3em;
 }
 
+#quizcomplete_text {
+    margin-top: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3em;
+    width: 30%;
+}
+
 .lives-area img {
     height: 3em;
     padding: .1em;

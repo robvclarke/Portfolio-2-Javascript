@@ -56,6 +56,10 @@ The link to the Figma where I created the screens can be found here [Figma Desig
 
 ## Credits
 
+This video was helpful figuring out how to get URL parameters from javascript to get the final score onto the gameover screen [Youtube Tutorial](https://www.youtube.com/watch?v=j3-LV3XxhVg&ab_channel=ProcureEminence)
+
+This video was very helpful in figuring out how to create 8bit style graphics in Adobe Illustrator [Youtube Tutorial](https://www.youtube.com/watch?v=krTF_DLe96c&ab_channel=MakeItPOP)
+
 
 
 
