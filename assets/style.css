@@ -192,7 +192,7 @@ text-align: center;
 
 .main-heading {
     text-align: center;
-    margin-top: 10em;
+    margin-top: 5em;
 }
 .main-heading h1 {
     font-weight: bold;
@@ -220,6 +220,11 @@ footer {
 
 #livesfont {
     height: 1.25em;
+}
+.soundtrack button {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 1200px) {

@@ -85,6 +85,6 @@ window.onload = function updateScore() {
 
 // Function to play soundtrack
 function playMusic() {
-    var audio = new Audio('/assets/images/bensound-creativeminds.mp3');
+    var audio = new Audio('/assets/images/soundtrack.mp3');
     audio.play();
 }
