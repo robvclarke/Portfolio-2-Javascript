@@ -82,3 +82,8 @@ window.onload = function updateScore() {
     } // if they have three lives and are on quiz success page their score is 10
     document.getElementById('final-score').innerHTML = search;
 }
+
+function playMusic() {
+    var audio = new Audio('/assets/images/bensound-creativeminds.mp3');
+    audio.play();
+}
