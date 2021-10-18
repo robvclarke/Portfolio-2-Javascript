@@ -223,6 +223,47 @@ footer {
     height: 1.25em;
 }
 
+@media screen and (max-width: 1200px) {
+    #homepage_text > img {
+        margin-top: 2em;
+        margin-left: 5%;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #homepage_text > img {
+        margin-top: 2em;
+        margin-left: 2%;
+        height: 75px;
+    }
+    #homepage_text {
+        margin-left: 5em !important;
+        margin-bottom: 0 !important;
+    }
+    #main-logo {
+        margin-left: 30%;
+    }
+    #main-logo img {
+        height: 15em;
+        margin-left: 0em !important;
+        padding-left: 0em !important;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    #homepage_text > img {
+        margin-top: 2em;
+        margin-left: 0;
+        padding-left: 0;
+        height: 50px;
+    }
+    #homepage_text {
+        margin-left: 5em !important;
+        margin-bottom: 0 !important;
+    }
+}
 
 
 

@@ -83,6 +83,7 @@ window.onload = function updateScore() {
     document.getElementById('final-score').innerHTML = search;
 }
 
+// Function to play soundtrack
 function playMusic() {
     var audio = new Audio('/assets/images/bensound-creativeminds.mp3');
     audio.play();
