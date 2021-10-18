@@ -199,7 +199,6 @@ text-align: center;
 }
 .three-buttons img {
     height: 10em;
-    
 }
 .final-score {
     color: white;
@@ -229,7 +228,17 @@ footer {
         margin-left: 5%;
         height: 75px;
     }
+    .three-buttons img {
+        height: 8em;
+    }
 }
+@media screen and (max-width: 992px) {
+    .three-buttons img {
+        height: 6em;
+    }
+
+}
+
 
 @media screen and (max-width: 768px) {
     #homepage_text > img {
@@ -248,6 +257,9 @@ footer {
         height: 15em;
         margin-left: 0em !important;
         padding-left: 0em !important;
+    }
+    .three-buttons img {
+        height: 7em;
     }
 }
 
@@ -279,16 +291,26 @@ footer {
         margin-bottom: 1em;
     }
     
-    
     .three-buttons {
         margin-top: 1em;
     }
     .three-buttons img {
-        height: 7em;
-        
+        height: 9em;  
     }
     .bottom-row {
         margin-left: 0%;
+    }
+    #game-over-graphic {
+        bottom: 0px;
+        margin-bottom: 0em;
+        width: 30%;
+        margin-left: 0%;
+        position: fixed;
+    }
+    #gameover_text {
+        margin-top: 2em;
+        margin-left: 17%;
+        margin-bottom: 3em;
     }
 }
 
