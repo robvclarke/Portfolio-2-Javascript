@@ -263,6 +263,33 @@ footer {
         margin-left: 5em !important;
         margin-bottom: 0 !important;
     }
+
+    #header {
+        background-color: #131B42;
+        height: 7em;
+        min-width: 600px;
+    }
+
+    .main-heading {
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .question-score {
+        margin-bottom: 1em;
+    }
+    
+    
+    .three-buttons {
+        margin-top: 1em;
+    }
+    .three-buttons img {
+        height: 7em;
+        
+    }
+    .bottom-row {
+        margin-left: 0%;
+    }
 }
 
 
