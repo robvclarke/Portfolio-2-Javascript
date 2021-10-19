@@ -145,16 +145,24 @@ a, button {
 .play_button {
     background-color: transparent !important;
     border: none;
-    margin: 20px 30% 20px 20px;
+    margin-right: 0;
+    padding-right: 0;
     text-align: center;
     cursor: pointer;
-    z-index: 2;
 }
 
-.button-group {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.play_button img{
+    margin-right: 0;
+    margin-left: 60%;
+    padding-right: 0;
+}
+
+.about_button {
+    background-color: transparent !important;
+    border: none;
+    margin-left: 30%;
+    text-align: center;
+    cursor: pointer;
 }
 
 button {
