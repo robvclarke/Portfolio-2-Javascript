@@ -189,7 +189,7 @@ text-align: center;
 }
 
 .quiz, .question {
-    background-image: url('../images/landscape.jpg');
+    background-image: url('../images/best_landscape.jpg');
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -361,6 +361,9 @@ footer {
     .play_again img {
         margin-left: 30%;
         margin-top: 24px;
+    }
+    .question h1{
+        font-size: small !important;
     }
 }
 
