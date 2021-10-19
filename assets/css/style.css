@@ -411,13 +411,6 @@ footer {
         margin-top: 2px !important;
     }
 
-    #game-over-graphic {
-        bottom: 0px;
-        margin-bottom: 0em;
-        width: 30%;
-        margin-left: 0%;
-        position: fixed;
-    }
     #gameover_text {
         margin-top: 2em;
         margin-left: 17%;
