@@ -162,6 +162,11 @@ a, button {
     padding-right: 0;
 }
 
+.play_again img {
+    margin-left: 45%;
+    margin-top: 24px;
+}
+
 .about_button {
     background-color: transparent !important;
     border: none;
@@ -229,6 +234,11 @@ footer {
 
 .bottom-row {
     margin-left: 23%;
+    
+}
+.bottom-row {
+    margin-top: 24px !important;
+    
 }
 
 #livesfont {
@@ -262,7 +272,7 @@ footer {
         height: 75px;
     }
     #homepage_text {
-        margin-left: 5em !important;
+        margin-left: 3em !important;
         margin-bottom: 0 !important;
     }
     #main-logo {
@@ -276,12 +286,20 @@ footer {
     .three-buttons img {
         height: 7em;
     }
+    .play_button img{
+        margin-right: 0;
+        margin-top: 24px;
+        margin-left: 30%;
+        margin-bottom: 24px;
+        padding-right: 0;
+    }
 }
 
 
 @media screen and (max-width: 576px) {
     #homepage_text > img {
         margin-top: 2em;
+        margin-bottom: 32px;
         margin-left: 0;
         padding-left: 0;
         height: 50px;
@@ -315,6 +333,10 @@ footer {
     .bottom-row {
         margin-left: 0%;
     }
+    .bottom-row img{
+        margin-top: 2px !important;
+    }
+
     #game-over-graphic {
         bottom: 0px;
         margin-bottom: 0em;
@@ -326,6 +348,19 @@ footer {
         margin-top: 2em;
         margin-left: 17%;
         margin-bottom: 3em;
+    }
+    
+    
+    .play_button img{
+        margin-right: 0;
+        margin-top: 24px;
+        margin-left: 30%;
+        margin-bottom: 24px;
+        padding-right: 0;
+    }
+    .play_again img {
+        margin-left: 30%;
+        margin-top: 24px;
     }
 }
 
