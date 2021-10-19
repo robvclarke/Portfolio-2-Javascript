@@ -1,5 +1,3 @@
-// Variables for points and questions 
-
 var points = 0;
 var question = 0;
 var lives = 3;
@@ -23,7 +21,7 @@ function checkAnswer(userAnswer) {
 
     question++; // add 1 to question
     if (question === 10) {
-        window.location.href = 'quizcomplete.html?score=' + points // Go to Quiz Complete page after final question
+        window.location.href = 'quizcomplete.html?score=' + points; // Go to Quiz Complete page after final question
     }
     document.getElementById('question').innerHTML = questions[question].text; //  Update Question text
     document.getElementById('question-number').innerHTML = (question + 1); //  Update Question number
@@ -35,10 +33,10 @@ function checkAnswer(userAnswer) {
 window.onload = function updateScore() {
     var search = window.location.search[7]; // take score from url
     if (window.location.pathname == '/quizcomplete.html' && search === '1') {
-        search = 10
+        search = 10;
     } // if they have three lives and are on quiz success page their score is 10
     document.getElementById('final-score').innerHTML = search;
-}
+};
 
 // Function to play soundtrack
 function playMusic() {
