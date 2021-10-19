@@ -141,6 +141,13 @@ a, button {
     margin-right: 1em;
 }
 
+#soundtrack-graphic {
+    margin-top: 24px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+
 
 .play_button {
     background-color: transparent !important;
@@ -229,11 +236,8 @@ footer {
 #livesfont {
     height: 1.25em;
 }
-.soundtrack button {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    margin-top: 1em;
-}
+
+
 
 @media screen and (max-width: 1200px) {
     #homepage_text > img {
