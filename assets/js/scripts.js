@@ -32,9 +32,9 @@ function checkAnswer(userAnswer) {
 
 window.onload = function updateScore() {
     
-    if (window.location.pathname == '/quizcomplete.html' || window.location.pathname == '/gameover.html') {
+    if (window.location.pathname == 'quizcomplete.html' || window.location.pathname == 'gameover.html') {
         var search = window.location.search[7]; // take score from url
-        if (window.location.pathname == '/quizcomplete.html' && search === '1') {
+        if (window.location.pathname == 'quizcomplete.html' && search === '1') {
             search = 10;
         } // if they have three lives and are on quiz success page their score is 10
         document.getElementById('final-score').innerHTML = search;
