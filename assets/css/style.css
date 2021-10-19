@@ -401,10 +401,11 @@ footer {
         margin-top: 1em;
     }
     .three-buttons img {
-        height: 9em;  
+        height: 7em;  
     }
     .bottom-row {
         margin-left: 0%;
+        margin-top: 2px !important;
     }
     .bottom-row img{
         margin-top: 2px !important;
