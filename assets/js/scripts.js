@@ -31,11 +31,15 @@ function checkAnswer(userAnswer) {
 // Check url score when gameover page loads
 
 window.onload = function updateScore() {
-    var search = window.location.search[7]; // take score from url
-    if (window.location.pathname == '/quizcomplete.html' && search === '1') {
-        search = 10;
-    } // if they have three lives and are on quiz success page their score is 10
-    document.getElementById('final-score').innerHTML = search;
+    
+    if (window.location.pathname == '/quizcomplete.html' || window.location.pathname == '/gameover.html') {
+        var search = window.location.search[7]; // take score from url
+        if (window.location.pathname == '/quizcomplete.html' && search === '1') {
+            search = 10;
+        } // if they have three lives and are on quiz success page their score is 10
+        document.getElementById('final-score').innerHTML = search;
+    }
+    
 };
 
 // Function to play soundtrack
