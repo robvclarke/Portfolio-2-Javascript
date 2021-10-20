@@ -27,7 +27,7 @@ The various forms of transport themselves make up the rest of the illustrations 
 
 The color pallette took inspiration from the Dublin flag with its tones of blue for the colder side of it. The flames that appear on the three burning castles of the city's emblem were the inspiration for the warmer side. 
 
-![Color Pallete](/assets/images/colour-pallete.png)
+![Color Pallete](/assets/images/colour_pallete.png)
 
 ## UX
 
