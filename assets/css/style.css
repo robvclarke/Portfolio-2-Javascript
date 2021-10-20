@@ -33,6 +33,11 @@ a, button {
     background-color: #86C1DC;
 }
 
+.external_link {
+    cursor: pointer;
+    margin-left: 30%;
+}
+
 #main-logo {
     margin-top: 5em;
     margin-left: 40%;
@@ -72,6 +77,13 @@ a, button {
 }
 
 #homepage_text {
+    margin-top: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3em;
+}
+
+#about_text {
     margin-top: 2em;
     margin-left: 30%;
     margin-right: 30%;
@@ -384,6 +396,32 @@ footer {
         padding-left: 0;
         height: 40px;
     }
+
+    #about_text {
+        margin-top: 2em;
+        margin-left: 1%;
+        margin-bottom: 3em;
+    }
+
+    #about_text > img {
+        margin-top: 1em;
+        margin-bottom: 32px;
+        margin-left: 0;
+        padding-left: 0;
+        height: 220px;
+    }
+
+    .external_link {
+        margin-left: 2%;
+    }
+
+    .external_link > a > img {
+        margin-left: 0;
+        padding-left: 0px;
+        left: 0px;
+        cursor: pointer;
+    }
+
     #homepage_text {
         margin-left: .5em !important;
         margin-top: 1em !important;
