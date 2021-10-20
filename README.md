@@ -1,10 +1,25 @@
 # Dublin Transport Quiz
 
+![Am I responsive](/assets/images/am_i_responsive.png)
+
+[Link to live website](https://www.figma.com/file/JGjOtJ32DX9stmCM0YSNvB/Untitled?node-id=27%3A601497)
+
 A quiz designed to test your knowledge of Dublin's three key public transport services. The Dart, the Bus and the Luas.
+
+## Table of contents
+1. [Project Kickoff](#Project-Kickoff)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
+
 
 ## Project Kickoff
 
 My idea for the Portfolio 2 project was to code a quiz using 8bit graphics as I felt my knowledge of javascript is quite basic so it makes sense for the style of the site to hark back to more basic time of the internet. I chose the 3 main Dublin Transport services as the focus of my quiz as I thought they would make cool graphics and I only very recently got a car so I spent nearly three decades using the beloved Dart, Bus and Luas. 
+
+## Project Goals
+
+The goal of the project was to give users an opporuntity to test their knowledge and learn 
 
 ## Design
 
@@ -13,7 +28,7 @@ The various forms of transport themselves make up the rest of the illustrations 
 
 ![Graphics](/assets/images/graphics.png)
 
-One of my key learnings from the first portfolio project was the practicality of designing mobile first so I began with the homepage, main quiz page,and about page, a game over page and a quiz completed page. 
+I designed the screens in Figma. One of my key learnings from the first portfolio project was the practicality of designing mobile first in particular when you are going to be the one developing the site so I began with the homepage, main quiz page,and about page, a game over page and a quiz completed page. 
 
 ![Mobile Screens](/assets/images/mobile_screens.png)
 
@@ -21,7 +36,7 @@ I then designed the desktop screens afterwards which was far easier than doing i
 
 ![Desktop Screens](/assets/images/desktop_screens.png)
 
-The link to the Figma where I created the screens can be found here [Figma Design File](https://www.figma.com/file/JGjOtJ32DX9stmCM0YSNvB/Untitled?node-id=27%3A601497)
+The link to the Figma file where I created the screens for mobile and desktop can be found here [Figma Design File](https://www.figma.com/file/JGjOtJ32DX9stmCM0YSNvB/Untitled?node-id=27%3A601497)
 
 ## Sitemap, Features and Priority Guide
 
