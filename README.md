@@ -31,7 +31,8 @@ The color pallette took inspiration from the Dublin flag with its tones of blue 
 
 ### Typography
 
-The color pallette took inspiration from the Dublin flag with its tones of blue for the colder side of it. The flames that appear on the three burning castles of the city's emblem were the inspiration for the warmer side. 
+For the typography I used the font '8 Bit Wonder' from [Link to DaFont](https://www.dafont.com/8bit-wonder.font) its not a web font so wherever I used it I had to export SVGs from Figma and have them as images in the site. I felt a 8bit font such as this was key to the vibe of the site I wanted to get across so I feel it was worth the extra work.
+The other font I used was 'Roboto Mono' as it is a monospaced font common in this kind of style as it's a google font so very easy to use [Link to Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 
 ![Typography](/assets/images/typography.png)
 
