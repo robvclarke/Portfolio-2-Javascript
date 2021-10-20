@@ -35,7 +35,7 @@ a, button {
 
 .external_link {
     cursor: pointer;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 
 #main-logo {
@@ -359,6 +359,27 @@ footer {
     }
     .question h1{
         font-size: small !important;
+    }
+    #about_text {
+        margin-top: 2em;
+        margin-left: 8%;
+        margin-bottom: 3em;
+    }
+    #about_text > img {
+        margin-top: 1em;
+        margin-bottom: 24px;
+        margin-left: 0;
+        padding-left: 0;
+        height: 250px;
+    }
+    .external_link {
+        cursor: pointer;
+        margin-left: 20%;
+    }
+    .back_button img {
+        text-align: center;
+        cursor: pointer;
+        margin-left: 35%;
     }
 }
 
