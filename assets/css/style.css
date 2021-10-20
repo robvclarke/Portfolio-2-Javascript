@@ -578,9 +578,12 @@ footer {
     .play_button img{
         margin-right: 0;
         margin-top: 24px;
-        margin-left: 30%;
+        margin-left: 20%;
         margin-bottom: 24px;
         padding-right: 0;
+    }
+    .about_button{
+        margin-left: 20%;
     }
     .play_again img {
         margin-left: 25%;
