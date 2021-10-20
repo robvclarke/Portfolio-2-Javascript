@@ -333,7 +333,7 @@ footer {
         margin-bottom: 3em;
     }
     #quiz_success_text {
-        margin-top: 1em;
+        margin-top: 5em;
         margin-left: 10%;
         margin-bottom: 1em;
     }    
@@ -370,6 +370,19 @@ footer {
         margin-left: .5em !important;
         margin-top: 1em !important;
         margin-bottom: 0 !important;
+    }
+    #quiz-complete-graphic {
+        bottom: 0px;
+        margin-bottom: 0em;
+        margin-left: 3%;
+    }
+
+    #quiz-complete-graphic img {
+        bottom: 0px;
+        margin-bottom: 0em;
+        margin-top: 150px;
+        height: 300px;
+        bottom: 0px;
     }
 
     #header {
