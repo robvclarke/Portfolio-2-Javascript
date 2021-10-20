@@ -31,10 +31,10 @@ function checkAnswer(userAnswer) {
 }
 
 
-// Check url score when gameover page loads
+// Check url score when gameover or quiz complete page loads
 
 window.onload = function updateScore() {
-    
+
     if (window.location.pathname == '/Portfolio-2-Javascript/quizcomplete.html' || window.location.pathname == '/Portfolio-2-Javascript/gameover.html') {
         var search = window.location.search[7]; // take score from url
         if (window.location.pathname == '/Portfolio-2-Javascript/quizcomplete.html' && search === '1') {
@@ -42,7 +42,7 @@ window.onload = function updateScore() {
         } // if they have three lives and are on quiz success page their score is 10
         document.getElementById('final-score').innerHTML = search;
     }
-    
+
 };
 
 // Function to play soundtrack
@@ -50,5 +50,3 @@ function playMusic() {
     var audio = new Audio('assets/mp3s/soundtrack.mp3');
     audio.play();
 }
-
-
