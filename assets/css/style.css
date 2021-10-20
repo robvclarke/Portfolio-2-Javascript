@@ -52,13 +52,14 @@ a, button {
     bottom: 0px;
     margin-bottom: 0em;
     margin-left: 30%;
-    height: 30vh;
 }
 
 #quiz-complete-graphic img {
     bottom: 0px;
     margin-bottom: 0em;
+    margin-top: 56px;
     height: 500px;
+    bottom: 0px;
 }
 
 #game-over-graphic img {
@@ -331,8 +332,14 @@ footer {
         margin-left: 17%;
         margin-bottom: 3em;
     }
-    
-    
+    #quiz_success_text {
+        margin-top: 1em;
+        margin-left: 10%;
+        margin-bottom: 1em;
+    }    
+    #quiz_success_text img {
+        height: 40px;
+    }  
     .play_button img{
         margin-right: 0;
         margin-top: 24px;
@@ -342,7 +349,8 @@ footer {
     }
     .play_again img {
         margin-left: 30%;
-        margin-top: 24px;
+        margin-top: 16px;
+
     }
     .question h1{
         font-size: small !important;
