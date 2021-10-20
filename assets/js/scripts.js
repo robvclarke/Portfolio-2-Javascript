@@ -10,10 +10,14 @@ function checkAnswer(userAnswer) {
     if (questions[question].answer === userAnswer) {
         points++; // add 1 to point 
         document.getElementById('score').innerHTML = points;
+        var audio = new Audio('assets/mp3s/correct.mp3');
+        audio.play();
     } else {
         document.getElementById('life' + lives).innerHTML = ''; // target the correct life and remove it
         lives--; // remove 1 from Lives
         console.log(lives);
+        var audio = new Audio('assets/mp3s/incorrect.mp3');
+        audio.play();
         if (lives === 0) {
             window.location.href = 'gameover.html?score=' + points; //  redirect to gameover screen
         }

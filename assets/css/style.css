@@ -359,6 +359,18 @@ footer {
 
 
 @media screen and (max-width: 375px) {
+
+    #home_background{
+        background-image: url('../images/home_background.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0%;
+        bottom:0%;
+        left:0%;
+        right: 0%;
+        max-width: 375px;
+        max-height: 700px
+    }
     #homepage_text > img {
         margin-top: 1em;
         margin-bottom: 32px;
