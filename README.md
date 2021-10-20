@@ -34,13 +34,14 @@ The color pallette took inspiration from the Dublin flag with its tones of blue 
 For the typography I used the font '8 Bit Wonder' from [DaFont](https://www.dafont.com/8bit-wonder.font) its not a web font so wherever I used it I had to export SVGs from Figma and have them as images in the site. I felt a 8bit font such as this was key to the vibe of the site I wanted to get across so I feel it was worth the extra work.
 The other font I used was 'Roboto Mono' as it is a monospaced font common in this kind of style as it's a google font so very easy to use [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 
-![Typography](/assets/images/soundtrack.jpeg)
+![Typography](/assets/images/typography.png)
 
 ### Soundtrack
 
 My brother Brendan is a talented musician so I got him to compose a custom soundtrack for my Quiz in 'Logic' in the vein of the Gameboy soundtracks of our youth. I think it really adds to the experience as soundtracks are key to endearing games to their users in particular with the kind of 8but vibe I was going for
 
-![Soundtrack](/assets/images/typography.png)
+![Soundtrack](/assets/images/soundtrack.jpeg)
+
 
 ## UX
 
