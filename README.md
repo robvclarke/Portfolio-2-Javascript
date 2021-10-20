@@ -91,8 +91,26 @@ The link to the Figma file where I created the screens for mobile and desktop ca
 **Quiz Page**
 * A score counter that updates as you click correct answers
 * A lives section where the three castles of Dublin represent your three lives and one is removed each time you select an incorrect answer
-* A play s
-* A button to take the user back to the home page.
+* An button to play the soundtrack that will trigger the custom soundtrack composed for the game
+* A question number that progresses from 1/10 - 10/10 as you progress through the quiz
+* The questions themselves that update as you move through the quiz
+* The answer buttons of DART, BUS and LUAS with their custom 8bit illustrations
+* Audio feedback on the buttons if you get a question correct or wrong
+
+**Gameover Page**
+* A score counter that updates as you click correct answers
+* A lives section where the three castles of Dublin represent your three lives and one is removed each time you select an incorrect answer
+* An button to play the soundtrack that will trigger the custom soundtrack composed for the game
+* A question number that progresses from 1/10 - 10/10 as you progress through the quiz
+* The questions themselves that update as you move through the quiz
+* The answer buttons of DART, BUS and LUAS with their custom 8bit illustrations
+* Audio feedback on the buttons if you get an question correct or wrong
+
+
+
+
+
+
 
 
 ## Color Pallete 
