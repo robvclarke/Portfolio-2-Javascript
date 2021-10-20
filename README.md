@@ -29,6 +29,12 @@ The color pallette took inspiration from the Dublin flag with its tones of blue 
 
 ![Color Pallete](/assets/images/colour_pallete.png)
 
+### Typography
+
+The color pallette took inspiration from the Dublin flag with its tones of blue for the colder side of it. The flames that appear on the three burning castles of the city's emblem were the inspiration for the warmer side. 
+
+![Typography](/assets/images/typography.png)
+
 ## UX
 
 ### Wireframes
