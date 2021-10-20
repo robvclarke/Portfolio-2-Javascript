@@ -405,7 +405,7 @@ footer {
 
     #about_text > img {
         margin-top: 1em;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
         margin-left: 0;
         padding-left: 0;
         height: 220px;
@@ -416,7 +416,7 @@ footer {
     }
 
     .external_link > a > img {
-        margin-left: 0;
+        margin-left: 2%;
         padding-left: 0px;
         left: 0px;
         cursor: pointer;

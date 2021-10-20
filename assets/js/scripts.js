@@ -2,6 +2,8 @@ var points = 0;
 var question = 0;
 var lives = 3;
 
+var audioCorrect = new Audio('assets/mp3s/correct.mp3');
+var audioIncorrect = new Audio('assets/mp3s/incorrect.mp3');
 
 // Logic for checking if answers are correct and removing life
 
@@ -10,14 +12,11 @@ function checkAnswer(userAnswer) {
     if (questions[question].answer === userAnswer) {
         points++; // add 1 to point 
         document.getElementById('score').innerHTML = points;
-        var audio = new Audio('assets/mp3s/correct.mp3');
-        audio.play();
+        audioCorrect.play();
     } else {
         document.getElementById('life' + lives).innerHTML = ''; // target the correct life and remove it
-        lives--; // remove 1 from Lives
-        console.log(lives);
-        var audio = new Audio('assets/mp3s/incorrect.mp3');
-        audio.play();
+        lives--; // remove 1 from Lives 
+        audioIncorrect.play();
         if (lives === 0) {
             window.location.href = 'gameover.html?score=' + points; //  redirect to gameover screen
         }
