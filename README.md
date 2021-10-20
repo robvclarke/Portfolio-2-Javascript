@@ -31,10 +31,16 @@ The color pallette took inspiration from the Dublin flag with its tones of blue 
 
 ### Typography
 
-For the typography I used the font '8 Bit Wonder' from [Link to DaFont](https://www.dafont.com/8bit-wonder.font) its not a web font so wherever I used it I had to export SVGs from Figma and have them as images in the site. I felt a 8bit font such as this was key to the vibe of the site I wanted to get across so I feel it was worth the extra work.
-The other font I used was 'Roboto Mono' as it is a monospaced font common in this kind of style as it's a google font so very easy to use [Link to Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
+For the typography I used the font '8 Bit Wonder' from [DaFont](https://www.dafont.com/8bit-wonder.font) its not a web font so wherever I used it I had to export SVGs from Figma and have them as images in the site. I felt a 8bit font such as this was key to the vibe of the site I wanted to get across so I feel it was worth the extra work.
+The other font I used was 'Roboto Mono' as it is a monospaced font common in this kind of style as it's a google font so very easy to use [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 
-![Typography](/assets/images/typography.png)
+![Typography](/assets/images/soundtrack.jpeg)
+
+### Soundtrack
+
+My brother Brendan is a talented musician so I got him to compose a custom soundtrack for my Quiz in 'Logic' in the vein of the Gameboy soundtracks of our youth. I think it really adds to the experience as soundtracks are key to endearing games to their users in particular with the kind of 8but vibe I was going for
+
+![Soundtrack](/assets/images/typography.png)
 
 ## UX
 
@@ -66,7 +72,26 @@ The link to the Figma file where I created the screens for mobile and desktop ca
         3. As a Returning Visitor, I want to be able to potentially upload my own questions related to the content so I can customise the quiz somewhat.
 
 
-## Sketched Wireframes
+## Features
+
+**Landing Page**
+* A button that allows users to commence the quiz
+* A button that will bring users to an about page where they can get more information about the quiz
+* The page is fully responsive
+* Custom 8bit illustrations designed for the site
+
+
+**About Page**
+* An about section where users can read about the quiz
+* Links out to more information on each of the three types of transport that open in new tabs
+* A back button to return to the landing page
+* The page is fully responsive
+
+**Quiz Page**
+* A score counter that updates as you click correct answers
+* A lives section where the three castles of Dublin represent your three lives and one is removed each time you select an incorrect answer
+* A play s
+* A button to take the user back to the home page.
 
 
 ## Color Pallete 
