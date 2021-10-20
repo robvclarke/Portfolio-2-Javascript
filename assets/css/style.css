@@ -145,7 +145,6 @@ a, button {
     
 }
 
-
 .play_button {
     background-color: transparent !important;
     border: none;
@@ -180,18 +179,6 @@ a, button {
     cursor: pointer;
 }
 
-button {
-margin: 20px;
-background-color: transparent !important;
-border: none;
-text-align: center;
-}
-
-
-.button-content {
-    display: flex;
-    flex-direction: column;
-}
 
 .quiz, .question {
     background-image: url('../images/best_landscape.jpg');
@@ -460,6 +447,12 @@ footer {
         background-color: #131B42;
         height: 7em;
         min-width: 375px;
+    }
+
+    .back_button img {
+        text-align: center;
+        cursor: pointer;
+        margin-left: 25%;
     }
 
     .main-heading {
