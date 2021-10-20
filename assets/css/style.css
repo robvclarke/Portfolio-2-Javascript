@@ -29,16 +29,9 @@ a, button {
 
 }
 
-#complete_background{
+.blue-body {
     background-color: #86C1DC;
-    background-size: cover;
-    top: 0%;
-    bottom:0%;
-    left:0%;
-    right: 0%;
-    position:absolute;
 }
-
 
 #main-logo {
     margin-top: 5em;
@@ -52,25 +45,20 @@ a, button {
     margin-bottom: 0em;
     width: 30%;
     margin-left: 20%;
-    position: fixed;
+    height: 30vh;
 }
 
 #quiz-complete-graphic {
     bottom: 0px;
-    position: fixed;
     margin-bottom: 0em;
-    width: 20%;
-    margin-left: 20%;
-    min-width: 300px;
-    z-index: 1;
-    
+    margin-left: 30%;
+    height: 30vh;
 }
 
 #quiz-complete-graphic img {
     bottom: 0px;
     margin-bottom: 0em;
-    height: 550px;
-    
+    height: 500px;
 }
 
 #game-over-graphic img {
@@ -243,8 +231,6 @@ footer {
     height: 1.25em;
 }
 
-
-
 @media screen and (max-width: 1200px) {
     #homepage_text > img {
         margin-top: 2em;
@@ -339,8 +325,6 @@ footer {
         bottom: 0px;
         margin-bottom: 0em;
         width: 30%;
-        margin-left: 0%;
-        position: fixed;
     }
     #gameover_text {
         margin-top: 2em;
@@ -411,7 +395,7 @@ footer {
 
     #gameover_text {
         margin-top: 2em;
-        margin-left: 17%;
+        margin-left: 1%;
         margin-bottom: 3em;
     }
     
