@@ -51,3 +51,5 @@ function playMusic() {
     var audio = new Audio('assets/mp3s/soundtrack.mp3');
     audio.play();
 }
+
+
