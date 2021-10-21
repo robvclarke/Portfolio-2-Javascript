@@ -262,6 +262,8 @@ If I had more time I would have figured out users could add there own questions.
 
 If I had more time I would have provided further visual feedback for correct and incorrect answers on the answer buttons.
 
+If I had more time I would have added a timer that refills for each question. 
+
 ## Credits
 
 [Bootstrap 5.1:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
