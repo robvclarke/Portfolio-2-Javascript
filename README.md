@@ -12,8 +12,6 @@ My idea for the Portfolio 2 project was to code a quiz using 8bit graphics as I 
 
 The goal of the project was to create a simple visually impressive quiz that would test users knowledge of Dublin cities three main types of public transport with interesting questions, impressive visuals and an enjoyable user experience.
 
-
-
 ## Visual Design
 
 ### Graphics
@@ -135,11 +133,13 @@ The link to the Figma file where I created the screens for mobile and desktop ca
 ## Testing
 ### Validation
 
-The following tools were used to validate the code
+The following tools were used to validate the code.
 
-[W3C Markup Validator](https://validator.w3.org/)
-[W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/)
-[JShint](https://jshint.com/)
+For HTML [W3C Markup Validator](https://validator.w3.org/)
+
+For CSS [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/)
+
+For Javascript [JShint](https://jshint.com/)
 
 * W3C Markup Validator of index.html
   * The index.html passed with 0 error
