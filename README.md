@@ -212,16 +212,16 @@ For Javascript [JShint](https://jshint.com/)
         7. As a First Time Visitor, I want to be able to see clearly what lives I currently have.
         * This is achieved by the lives counter on the quiz page.
 
-        8.As a First Time Visitor, I want to be able to recieve feedback when a question is correct or incorrect.
+        8. As a First Time Visitor, I want to be able to recieve feedback when a question is correct or incorrect.
         * This is achieved by the audio feedback on the quiz page when you click an answer.
 
-        9.As a First Time Visitor, I want to be able to hear the cool soundtrack.
+        9. As a First Time Visitor, I want to be able to hear the cool soundtrack.
         * This is achieved by the play soundtrack button on the quiz page.
 
-        10.As a First Time Visitor, I want my final score to be displayed on the quiz complete page.
+        10. As a First Time Visitor, I want my final score to be displayed on the quiz complete page.
         * This is achieved by final score feature on the quiz complete page.
 
-        11.As a First Time Visitor, I want my final score to be displayed on the gameover page.
+        11. As a First Time Visitor, I want my final score to be displayed on the gameover page.
         * This is achieved by final score feature on the gameover page.
 
         12. As a first time visitor, I want to be able to link out to further information on each of the transport services in a new tab via an external link.
