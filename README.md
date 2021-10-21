@@ -63,6 +63,15 @@ The link to the Figma file where I created the screens for mobile and desktop ca
         2. As a First Time Visitor, I want the navigation to be intutitive and feel seamless between pages.
         3. As a First Time Visitor, I want to enjoy the visual aesthetic of the site.
         4. As a First Time Visitor, I want to find the quiz challenging and informative.
+        5. As a First Time Visitor, I want to be able to see clearly what question I am on.
+        6. As a First Time Visitor, I want to be able to see clearly what score I currently have.
+        7. As a First Time Visitor, I want to be able to see clearly what lives I currently have.
+        8.As a First Time Visitor, I want to be able to recieve feedback when a question is correct or incorrect.
+        9.As a First Time Visitor, I want to be able to hear the cool soundtrack.
+        10. As a First Time Visitor, I want my final score to be displayed on the quiz complete page.
+        11. As a First Time Visitor, I want my final score to be displayed on the gameover page.
+        12. As a first time visitor, I want to be able to link out to further information on each of the transport services in a new tab via an external link.
+        
 
     -   #### Returning Visitor Goals
 
@@ -178,15 +187,93 @@ For Javascript [JShint](https://jshint.com/)
   ![Lighthouse Mobile](/assets/images/lighthouse_mobile.png)
 
 
+  ### Testing User Stories
 
+    -  #### First Time Visitor Goals
+
+        1. As a First Time Visitor, I want to be able to find out easily what this site is about.
+         * This is achieved on the site through the about page.
+
+        2. As a First Time Visitor, I want the navigation to be intutitive and feel seamless between pages.
+        * This is achieved on the site through the buttons which have been tested and performed well.
+
+        3. As a First Time Visitor, I want to enjoy the visual aesthetic of the site.
+        * This is achieved through all the custom graphics I did which have tested well.
+
+        4. As a First Time Visitor, I want to find the quiz challenging and informative.
+        * Users I have tested with enjoyed the quiz finding it challenging/informative.
+
+        5. As a First Time Visitor, I want to be able to see clearly what question I am on.
+        * This is achieved by the question counter on the quiz page.
+
+        6. As a First Time Visitor, I want to be able to see clearly what score I currently have.
+        * This is achieved by the score counter on the quiz page.
+
+        7. As a First Time Visitor, I want to be able to see clearly what lives I currently have.
+        * This is achieved by the lives counter on the quiz page.
+
+        8.As a First Time Visitor, I want to be able to recieve feedback when a question is correct or incorrect.
+        * This is achieved by the audio feedback on the quiz page when you click an answer.
+
+        9.As a First Time Visitor, I want to be able to hear the cool soundtrack.
+        * This is achieved by the play soundtrack button on the quiz page.
+
+        10.As a First Time Visitor, I want my final score to be displayed on the quiz complete page.
+        * This is achieved by final score feature on the quiz complete page.
+
+        11.As a First Time Visitor, I want my final score to be displayed on the gameover page.
+        * This is achieved by final score feature on the gameover page.
+
+        12. As a first time visitor, I want to be able to link out to further information on each of the transport services in a new tab via an external link.
+        * This is achieved through the external links on the about page.
+
+        #### Returning Visitor Goals
+
+        1. As a Returning Visitor, I want there to be new questions on a regular basis related to the topic to keep it interesting.
+        2. As a Returning Visitor, I want to a way to log my score so that I can try beat it upon return visits.
+        3. As a Returning Visitor, I want to be able to potentially upload my own questions related to the content so I can customise the quiz somewhat.
+
+        * These goals were not achieved due to the time constraints and this being my first javascript project but if I had more time I would certainly work on them. I think the site still has a lot of return value and is highly shareable due to the visual and quiz content and everyone it has tested with has said they must send it on to others.
+
+
+        #### Further Testing
+
+        * The site is fully responsive and tested well on both Chrome and Safari at a variety of device sizes.
+        * I had friends and family test the site to try break it to uncover bugs which I then fixed. 
 
 ## Deployment
 
+I deployed the project on Github pages by doing the following:
+
+1. Logged into Github and navigated to the project repository.
+2. Click on settings.
+3. Scroll down to pages section.
+4. Select the main branch for source. 
+5. Click Publish site at the link. 
+6. Wait a couple of minutes and it will be live. 
+7. If you wish to fork the repo there is a fork button at the top of the repo page.
+8. If you wish to clone the repo there is a repo button at the top of the repo page
+
 ## If I had more time
+
+If I had more time I would have figured out a way to have users log their final scores so they could compete with each other.
+
+If I had more time I would have figured out users could add there own questions.
+
+If I had more time I would have provided further visual feedback for correct and incorrect answers on the answer buttons.
 
 ## Credits
 
-This video was helpful figuring out how to get URL parameters from javascript to get the final score onto the gameover screen [Youtube Tutorial](https://www.youtube.com/watch?v=j3-LV3XxhVg&ab_channel=ProcureEminence)
+[Bootstrap 5.1:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+Bootstrap was used to make use of it's grid feature when making the site responsive
+
+I got my brother Brendan to make the soundtrack for the game. Check out the band he drums in here [Tv People](https://open.spotify.com/artist/3ksd3kWCTBOz1qBahqPhmV?si=2sD4K6AXRdSqwYrDlAUZ8w)
+
+For the correct noise feedback I used this sound [Correct Noise](https://www.youtube.com/watch?v=qfx6yf8pux4&ab_channel=IltubodiFlegias)
+
+For the incorrect noise feedback I used this sound [Incorrect Noise](https://www.youtube.com/watch?v=2naim9F4010&ab_channel=BrodheadMediaFeatures)
+
+This video was helpful figuring out how to get URL parameters from javascript to get the final score onto the gameover sand quizcomplete screens [Youtube Tutorial](https://www.youtube.com/watch?v=j3-LV3XxhVg&ab_channel=ProcureEminence)
 
 This video was very helpful in figuring out how to create 8bit style graphics in Adobe Illustrator [Youtube Tutorial](https://www.youtube.com/watch?v=krTF_DLe96c&ab_channel=MakeItPOP)
 
