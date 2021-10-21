@@ -81,7 +81,6 @@ The link to the Figma file where I created the screens for mobile and desktop ca
 * The page is fully responsive
 * Custom 8bit illustrations designed for the site
 
-
 **About Page**
 * An about section where users can read about the quiz
 * Links out to more information on each of the three types of transport that open in new tabs
@@ -108,32 +107,51 @@ The link to the Figma file where I created the screens for mobile and desktop ca
 * A custom illustration of an 8bit irish president wearing shades and having a smoke to celebrate with you
 
 
+### Languages Used
 
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
+### Frameworks, Libraries & Programs Used
 
-
-
-
-## Color Pallete 
-
-## Typography
-
-## Photography
-
-
-## Icons
-
-
-## Designs
-
-
-## Clickable Prototype
-
-
-## Responsive Designs
-
+1. [Bootstrap 5.1:](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+    - Bootstrap was used to make use of it's grid feature when making the site responsive
+2. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Roboto Mono' font into the style.css file which is used on all pages throughout the project.
+3. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+4. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+5. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html?mv=search&mv=search&sdid=KCJMVLF6&ef_id=CjwKCAjw_L6LBhBbEiwA4c46usyUOLVy_x_F-6I0Nrl6Bz6TWvq6yhBbKT9K_MpoAb3e8lnDm1jMChoC2WQQAvD_BwE:G:s&s_kwcid=AL!3085!3!520938456683!e!!g!!adobe%20illustrator!1426208079!56320331272&gclid=CjwKCAjw_L6LBhBbEiwA4c46usyUOLVy_x_F-6I0Nrl6Bz6TWvq6yhBbKT9K_MpoAb3e8lnDm1jMChoC2WQQAvD_BwE)
+    - Illustrator was used to create all the 8bit Graphics
+6. [Figma:](https://www.figma.com/)
+    - Figma was used to create the wireframe screens I included in the design section of this readme
+7. [Logic](https://www.apple.com/logic-pro/)
+    - Logic was used to create the soundtrack for the game by my brother
 
 ## Testing
+### Validation
+
+The following tools were used to validate the code
+
+[W3C Markup Validator](https://validator.w3.org/)
+[W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/)
+[JShint](https://jshint.com/)
+
+* W3C Markup Validator of index.html
+  * The index.html passed with 0 error
+  ![Index HTML Testing](/assets/images/index_test.png)
+
+* W3C Markup Validator of about.html
+  * The about.html passed with 0 error
+  ![About HTML Testing](/assets/images/about_test.png)
+
+* W3C Markup Validator of quiz.html
+  * The quiz.html passed with 1 warning for not having a H1 inside a section but the reason I had a section was just to make the colour of the header bleed to full width
+  but have the content inside the grid of the bootstrap container so it had no need for a h element
+  ![Quiz HTML Testing](/assets/images/quiz_test.png)
+
 
 ## Deployment
 
