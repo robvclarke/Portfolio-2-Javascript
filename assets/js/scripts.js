@@ -5,7 +5,7 @@ var lives = 3;
 var audioCorrect = new Audio('assets/mp3s/correct.mp3');
 var audioIncorrect = new Audio('assets/mp3s/incorrect.mp3');
 
-// Logic for checking if answers are correct and removing life
+// Logic for checking if answers are correct, increasing score, removing life and providing audio feedback for correct/incorrect answers
 
 function checkAnswer(userAnswer) {
 
