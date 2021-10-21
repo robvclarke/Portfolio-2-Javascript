@@ -236,7 +236,7 @@ For Javascript [JShint](https://jshint.com/)
         * This is achieved by final score feature on the gameover page.
 
         12. As a first time visitor, I want to be able to link out to further information on each of the transport services in a new tab via an external link.
-        
+
         * This is achieved through the external links on the about page.
 
         #### Returning Visitor Goals
@@ -290,6 +290,11 @@ For the incorrect noise feedback I used this sound [Incorrect Noise](https://www
 This video was helpful figuring out how to get URL parameters from javascript to get the final score onto the gameover sand quizcomplete screens [Youtube Tutorial](https://www.youtube.com/watch?v=j3-LV3XxhVg&ab_channel=ProcureEminence)
 
 This video was very helpful in figuring out how to create 8bit style graphics in Adobe Illustrator [Youtube Tutorial](https://www.youtube.com/watch?v=krTF_DLe96c&ab_channel=MakeItPOP)
+
+## Acknowledgements
+
+I would like to thank my mentor Reuben for his help on this project.
+I would like to thank my friends and family for testing the project for me and providing feedback.
 
 
 
