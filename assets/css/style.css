@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
 
-/* CSS for HomeScreen & Quiz */
+/* CSS for Desktop */
 
 p, span {
     font-family: 'Roboto Mono', monospace; ;
@@ -186,8 +186,6 @@ a, button {
     font-family: 'Roboto Mono', monospace;
 }
 
-
-
 #question_one , .question-score {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
@@ -236,6 +234,8 @@ footer {
 #livesfont {
     height: 1.25em;
 }
+
+/* Media Querys */
 
 @media screen and (max-width: 1200px) {
     #homepage_text > img {
