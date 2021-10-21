@@ -165,6 +165,10 @@ For Javascript [JShint](https://jshint.com/)
   * The CSS passed with 0 error
   ![CSS](/assets/images/css_testing.png)
 
+* JShint Validator 
+  * The javascript passed with zero errors. It says I have one undefined variable but that 'questions' variable is just stored on my constants.js page which I load before this. It also says I have two unused variables but they are just trigged by an onclick in the html so they get used after the page loads.
+  ![JS](/assets/images/js_testing.png)
+
 
 ## Deployment
 
