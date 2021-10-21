@@ -110,7 +110,9 @@ The link to the Figma file where I created the screens for mobile and desktop ca
 ### Languages Used
 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
 [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
 [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
