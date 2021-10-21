@@ -192,39 +192,51 @@ For Javascript [JShint](https://jshint.com/)
     -  #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to be able to find out easily what this site is about.
+
          * This is achieved on the site through the about page.
 
         2. As a First Time Visitor, I want the navigation to be intutitive and feel seamless between pages.
+
         * This is achieved on the site through the buttons which have been tested and performed well.
 
         3. As a First Time Visitor, I want to enjoy the visual aesthetic of the site.
+
         * This is achieved through all the custom graphics I did which have tested well.
 
         4. As a First Time Visitor, I want to find the quiz challenging and informative.
+
         * Users I have tested with enjoyed the quiz finding it challenging/informative.
 
         5. As a First Time Visitor, I want to be able to see clearly what question I am on.
+
         * This is achieved by the question counter on the quiz page.
 
         6. As a First Time Visitor, I want to be able to see clearly what score I currently have.
+
         * This is achieved by the score counter on the quiz page.
 
         7. As a First Time Visitor, I want to be able to see clearly what lives I currently have.
+
         * This is achieved by the lives counter on the quiz page.
 
         8. As a First Time Visitor, I want to be able to recieve feedback when a question is correct or incorrect.
+
         * This is achieved by the audio feedback on the quiz page when you click an answer.
 
         9. As a First Time Visitor, I want to be able to hear the cool soundtrack.
+
         * This is achieved by the play soundtrack button on the quiz page.
 
         10. As a First Time Visitor, I want my final score to be displayed on the quiz complete page.
+
         * This is achieved by final score feature on the quiz complete page.
 
         11. As a First Time Visitor, I want my final score to be displayed on the gameover page.
+
         * This is achieved by final score feature on the gameover page.
 
         12. As a first time visitor, I want to be able to link out to further information on each of the transport services in a new tab via an external link.
+        
         * This is achieved through the external links on the about page.
 
         #### Returning Visitor Goals
