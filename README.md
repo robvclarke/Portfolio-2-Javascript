@@ -148,9 +148,20 @@ The following tools were used to validate the code
   ![About HTML Testing](/assets/images/about_test.png)
 
 * W3C Markup Validator of quiz.html
-  * The quiz.html passed with 1 warning for not having a H1 inside a section but the reason I had a section was just to make the colour of the header bleed to full width
-  but have the content inside the grid of the bootstrap container so it had no need for a h element
+  * The quiz.html passed with 1 warning for not having a H1 inside a section element but the reason I had used a section element here was just to make the colour of the header bleed to full width but have the content inside the grid of the bootstrap container so it had no need for a h element.  
   ![Quiz HTML Testing](/assets/images/quiz_test.png)
+
+* W3C Markup Validator of gameover.html
+  * The gameover.html passed with 0 error
+  ![Gameover](/assets/images/gameover_test.png)
+
+* W3C Markup Validator of quizcomplete.html
+  * The quizcomplete.html passed with 0 error
+  ![Quiz Complete](/assets/images/quizcomplete_test.png)
+
+* W3C CSS Validator 
+  * The CSS passed with 0 error
+  ![CSS](/assets/images/css_testing.png)
 
 
 ## Deployment
