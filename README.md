@@ -169,6 +169,16 @@ For Javascript [JShint](https://jshint.com/)
   * The javascript passed with zero errors. It says I have one undefined variable but that 'questions' variable is just stored on my constants.js page which I load before this. It also says I have two unused variables but they are just trigged by an onclick in the html so they get used after the page loads.
   ![JS](/assets/images/js_testing.png)
 
+### Performance
+
+* Lighthouse
+  * At Desktop the site got a score of 100 performance, 100 accessibility, 100 Best Pracitices and 90 SEO making it a progressive web app.
+  ![Lighthouse Desktop](/assets/images/lighthouse_desktop.png)
+  * At Mobile the site got a score of 99 performance, 100 accessibility, 100 Best Pracitices and 92 SEO making it a progressive web app.
+  ![Lighthouse Mobile](/assets/images/lighthouse_mobile.png)
+
+
+
 
 ## Deployment
 
