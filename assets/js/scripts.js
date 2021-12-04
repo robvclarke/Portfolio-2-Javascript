@@ -4,7 +4,9 @@ var lives = 3;
 
 var audioCorrect = new Audio('assets/mp3s/correct.mp3');
 var audioIncorrect = new Audio('assets/mp3s/incorrect.mp3');
+var audio = new Audio('assets/mp3s/soundtrack.mp3');
 
+var musicOn = false;
 // Logic for checking if answers are correct, increasing score, removing life and providing audio feedback for correct/incorrect answers
 
 function checkAnswer(userAnswer) {
@@ -47,6 +49,13 @@ window.onload = function updateScore() {
 
 // Function to play soundtrack
 function playMusic() {
-    var audio = new Audio('assets/mp3s/soundtrack.mp3');
-    audio.play();
+
+    if (musicOn) {
+       audio.pause();
+        musicOn = false;
+    } else {
+        audio.play();
+        musicOn = true;
+    }
+    
 }
