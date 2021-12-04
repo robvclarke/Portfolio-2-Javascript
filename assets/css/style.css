@@ -4,6 +4,14 @@
 
 /* CSS for Desktop */
 
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 p, span {
     font-family: 'Roboto Mono', monospace; ;
 }
@@ -51,6 +59,10 @@ a, button {
     width: 30%;
     margin-left: 20%;
     height: 30vh;
+    width: 32%;
+    text-align: center;
+    
+
 }
 
 #quiz-complete-graphic {
@@ -67,11 +79,15 @@ a, button {
     bottom: 0px;
 }
 
+
 #game-over-graphic img {
+    position: fixed;
     bottom: 0px;
     margin-bottom: 0em;
     margin-top: 80px;
-    height: 540px;
+    max-width: 400px;
+    max-height: 40%;
+
 }
 
 #main-logo img {
