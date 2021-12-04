@@ -196,7 +196,15 @@ a, button {
 
 
 .three-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
     margin-top: 3em;
+
+}
+
+.transport-icon {
+    padding: 2em;
 }
 
 .main-heading {
