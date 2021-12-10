@@ -49,7 +49,6 @@ a, button {
 #main-logo {
     margin-top: 5em;
     margin-left: 40%;
-    margin-right: 40%;
     margin-bottom: 3em;
 }
 
@@ -191,7 +190,7 @@ a, button {
 .about_button {
     background-color: transparent !important;
     border: none;
-    margin-left: 30%;
+    margin-left: 5%;
     text-align: center;
     cursor: pointer;
 }
@@ -316,7 +315,6 @@ footer {
     #quiz_success_text img {
         height: 70px;
     }  
-  
 }
 
 
@@ -356,6 +354,13 @@ footer {
     #quiz_success_text img {
         height: 60px;
     }  
+    .about_button {
+        background-color: transparent !important;
+        border: none;
+        margin-left: 30%;
+        text-align: center;
+        cursor: pointer;
+    }
 }
 
 
@@ -485,10 +490,10 @@ footer {
     }
     #homepage_text > img {
         margin-top: 1em;
-        margin-bottom: 32px;
+        margin-bottom: 12px;
         margin-left: 24px;
         padding-left: 0;
-        height: 40px;
+        height: 35px;
     }
 
     #about_text {
@@ -620,12 +625,12 @@ footer {
     }
     #main-logo img {
         height: 10em;
-        margin-left: 1em;
+        margin-left: 0;
         margin-right: 0;
     }
     #main-logo {
         margin-top: 5em;
-        margin-left: 25%;
+        margin-left: 20%;
         margin-bottom: 1em;
         margin-right: 0;
     }
