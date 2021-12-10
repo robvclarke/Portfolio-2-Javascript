@@ -111,6 +111,11 @@ a, button {
     margin-right: 40%;
     margin-bottom: 3em;
 }
+#gameover_text, img {
+   height: 7em;
+}
+
+
 #quiz_success_text {
     margin-top: 2em;
     margin-left: 20%;
@@ -614,8 +619,9 @@ footer {
         margin-left: 20%;
     }
     .play_again img {
-        margin-left: 25%;
+        margin-left: 20%;
         margin-top: 24px;
+        height: 3em;
     }
     .question, h1{
         font-size: 20px !important;
