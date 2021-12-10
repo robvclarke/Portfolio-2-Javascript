@@ -1,115 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dublin Transport Game</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- My CSS file -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg" href="assets/images/dublin_castle.svg">
-
-</head>
-
-<body class="quiz">
-
-    <!-- Overall Score and lives header-->
-
-    <section id="header">
-        <div class="container">
-
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dublin Transport Game</title>
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+      <!-- My CSS file -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!-- Favicon -->
+      <link rel="icon" type="image/svg" href="assets/images/dublin_castle.svg">
+   </head>
+   <body class="quiz">
+      <!-- Overall Score and lives header-->
+      <section id="header">
+         <div class="container">
             <div class="row">
-
-                <div class="col score">
-                    <img src="assets/images/your-score.svg" alt="your score text"><span id='score'>0</span>
-                </div>
-
-                <div class="col-12 col-sm-auto mt-2">
-
-                    <div class="lives-area">
-                        <img src="assets/images/lives-text.svg" alt="8bit text of the word lives:" id="livesfont"><span
-                            id="life1"><img src="assets/images/dublin_castle.svg"
-                                alt="an icon of dublin castle representing a life in this quiz"></span><span
-                            id="life2"><img src="assets/images/dublin_castle.svg"
-                                alt="an icon of dublin castle representing a life in this quiz"></span><span
-                            id="life3"><img src="assets/images/dublin_castle.svg"
-                                alt="an icon of dublin castle representing a life in this quiz"></span>
-                    </div>
-
-                </div>
-
+               <div class="col score">
+                  <img src="assets/images/your-score.svg" alt="your score text"><span id='score'>0</span>
+               </div>
+               <div class="col-12 col-sm-auto mt-2">
+                  <div class="lives-area">
+                     <img src="assets/images/lives-text.svg" alt="8bit text of the word lives:" id="livesfont"><span
+                        id="life1"><img src="assets/images/dublin_castle.svg"
+                        alt="an icon of dublin castle representing a life in this quiz"></span><span
+                        id="life2"><img src="assets/images/dublin_castle.svg"
+                        alt="an icon of dublin castle representing a life in this quiz"></span><span
+                        id="life3"><img src="assets/images/dublin_castle.svg"
+                        alt="an icon of dublin castle representing a life in this quiz"></span>
+                  </div>
+               </div>
             </div>
-
-        </div>
-
-    </section>
-
-    <!-- Question Number -->
-
-    <div class="container soundtrack">
-        <div class="row">
+         </div>
+      </section>
+      <!-- Question Number -->
+      <div class="container soundtrack">
+         <div class="row">
             <img src="assets/images/play_soundtrack.svg" alt="an image of a speaker and text that reads play soundtrack"
-                onclick="playMusic()" id='soundtrack-graphic'>
-        </div>
-    </div>
-
-    <div class="container main-heading">
-        <div class="row mt-lg-5 mt-sm-1">
+               onclick="playMusic()" id='soundtrack-graphic'>
+         </div>
+      </div>
+      <div class="container main-heading">
+         <div class="row mt-lg-5 mt-sm-1">
             <div class="question-number">
-                <span>Question</span> <span id='question-number'>1</span><span>/10</span>
+               <span>Question</span> <span id='question-number'>1</span><span>/10</span>
             </div>
-        </div>
-
-
-
-        <div class="row mt-lg-4 mt-sm-1">
+         </div>
+         <div class="row mt-lg-4 mt-sm-1">
             <div>
-                <h1 id="question">Which of these Opened in 1984?</h1>
+               <h1 id="question">Which of these Opened in 1984?</h1>
             </div>
-        </div>
-
-    </div>
-
-
-    <!-- Three buttons -->
-
-    <div class="container three-buttons">
-        <div class="transport-icon">
+         </div>
+      </div>
+      <!-- Three buttons -->
+      <div class="container three-buttons">
+         <div class="transport-icon">
             <a class="button">
-                <img src="assets/images/dart_button.svg"
-                    alt="button with a picture of the dart on it and illustration of the dart"
-                    onClick="checkAnswer('dart')">
+            <img src="assets/images/dart_button.svg"
+               alt="button with a picture of the dart on it and illustration of the dart"
+               onClick="checkAnswer('dart')">
             </a>
-        </div>
-
-        <div class="transport-icon">
+         </div>
+         <div class="transport-icon">
             <a class="button">
-                <img src="assets/images/bus_button.svg"
-                    alt="button with a picture of the bus on it and illustration of the bus"
-                    onClick="checkAnswer('bus')">
+            <img src="assets/images/bus_button.svg"
+               alt="button with a picture of the bus on it and illustration of the bus"
+               onClick="checkAnswer('bus')">
             </a>
-        </div>
-
-        <div class="transport-icon">
+         </div>
+         <div class="transport-icon">
             <a class="button">
-                <img src="assets/images/luas_button.svg"
-                    alt="button with a picture of the luas on it and illustration of the luas"
-                    onClick="checkAnswer('luas')">
+            <img src="assets/images/luas_button.svg"
+               alt="button with a picture of the luas on it and illustration of the luas"
+               onClick="checkAnswer('luas')">
             </a>
-        </div>
-
-
-    </div>
-
-
-    <script src="assets/js/constants.js"></script>
-    <script src="assets/js/scripts.js"></script>
-</body>
-
+         </div>
+      </div>
+      <script src="assets/js/constants.js"></script>
+      <script src="assets/js/scripts.js"></script>
+   </body>
 </html>

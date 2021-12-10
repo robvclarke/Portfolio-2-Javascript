@@ -197,6 +197,8 @@ a, button {
 .quiz, .question {
     background-image: url('../images/best_landscape.jpg');
     font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    overflow-x: hidden !important;
 }
 
 #question_one , .question-score {
@@ -377,7 +379,6 @@ footer {
     #header {
         background-color: #131B42;
         height: 7em;
-        min-width: 600px;
     }
 
     .main-heading {
@@ -393,7 +394,10 @@ footer {
         margin-top: 1em;
     }
     .three-buttons img {
-        height: 9em;  
+        height: 7em;  
+    }
+    .transport-icon {
+        padding: .5em;
     }
     .bottom-row {
         margin-left: 0%;
@@ -571,7 +575,6 @@ footer {
     #header {
         background-color: #131B42;
         height: 7em;
-        min-width: 375px;
     }
 
     .back_button img {
@@ -583,7 +586,7 @@ footer {
     .main-heading {
         text-align: center;
         margin-top: 1em;
-        margin-left: 2em;
+        margin-left: 0;
     }
 
     .question-score {
@@ -594,8 +597,8 @@ footer {
         margin-top: 1em;
     }
     .three-buttons img {
-        height: 5em;
-        margin-left: 2.5em;  
+        height: 4.5em;
+        margin-left: 2em;  
     }
     .transport-icon {
         padding: .5em;
