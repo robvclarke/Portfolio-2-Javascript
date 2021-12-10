@@ -576,41 +576,34 @@ footer {
         background-color: #131B42;
         height: 7em;
     }
-
     .back_button img {
         text-align: center;
         cursor: pointer;
         margin-left: 25%;
     }
-
     .main-heading {
         text-align: center;
         margin-top: 1em;
         margin-left: 0;
     }
-
     .question-score {
         margin-bottom: 1em;
     }
-    
     .three-buttons {
-        margin-top: 1em;
+        margin-top: .5em;
     }
     .three-buttons img {
-        height: 4.5em;
-        margin-left: 2em;  
+        height: 4em;
+        margin-left: 1.5em;  
     }
     .transport-icon {
         padding: .5em;
     }
-
     #gameover_text {
         margin-top: 2em;
         margin-left: 1%;
         margin-bottom: 3em;
     }
-    
-    
     .play_button img{
         margin-right: 0;
         margin-top: 24px;
@@ -625,8 +618,8 @@ footer {
         margin-left: 25%;
         margin-top: 24px;
     }
-    .question h1{
-        font-size: small !important;
+    .question, h1{
+        font-size: 16px !important;
     }
     #main-logo img {
         height: 10em;
