@@ -60,8 +60,6 @@ a, button {
     height: 30vh;
     width: 32%;
     text-align: center;
-    
-
 }
 
 #quiz-complete-graphic {
@@ -209,7 +207,6 @@ a, button {
     margin-bottom: 3em;
 }
 
-
 .three-buttons {
     display: flex;
     flex-wrap: wrap;
@@ -289,7 +286,7 @@ footer {
     }    
     #quiz_success_text img {
         height: 91px;
-    }  
+    }
 }
 @media screen and (max-width: 992px) {
     .three-buttons img {
@@ -475,8 +472,15 @@ footer {
 }
 
 
-@media screen and (max-width: 375px) {
 
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
     #home_background{
         background-image: url('../images/home_background.svg');
         background-repeat: no-repeat;
@@ -579,6 +583,7 @@ footer {
     .main-heading {
         text-align: center;
         margin-top: 1em;
+        margin-left: 2em;
     }
 
     .question-score {
@@ -589,14 +594,11 @@ footer {
         margin-top: 1em;
     }
     .three-buttons img {
-        height: 7em;  
+        height: 5em;
+        margin-left: 2.5em;  
     }
-    .bottom-row {
-        margin-left: 0%;
-        margin-top: 2px !important;
-    }
-    .bottom-row img{
-        margin-top: 2px !important;
+    .transport-icon {
+        padding: .5em;
     }
 
     #gameover_text {
