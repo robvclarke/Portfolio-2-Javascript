@@ -197,7 +197,6 @@ a, button {
 .quiz, .question {
     background-image: url('../images/best_landscape.jpg');
     font-family: 'Roboto Mono', monospace;
-    overflow: hidden;
     overflow-x: hidden !important;
 }
 
@@ -593,7 +592,7 @@ footer {
         margin-top: .5em;
     }
     .three-buttons img {
-        height: 4em;
+        height: 5em;
         margin-left: 1.5em;  
     }
     .transport-icon {
@@ -619,7 +618,7 @@ footer {
         margin-top: 24px;
     }
     .question, h1{
-        font-size: 16px !important;
+        font-size: 20px !important;
     }
     #main-logo img {
         height: 10em;
