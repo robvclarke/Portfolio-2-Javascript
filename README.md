@@ -1,6 +1,6 @@
 # Dublin Transport Quiz
 
-![Am I responsive](/assets/images/am_i_responsive.png)
+![Am I responsive](/assets/images/quiz_responsive.png)
 
 [Link to live website](https://robvclarke.github.io/Portfolio-2-Javascript/)
 
