@@ -16,7 +16,7 @@
    </head>
    <body class="quiz">
       <!-- Overall Score and lives header-->
-      <section id="header">
+      <header>
          <div class="container">
             <div class="row">
                <div class="col score">
@@ -35,50 +35,54 @@
                </div>
             </div>
          </div>
-      </section>
+      </header>
       <!-- Question Number -->
+      <section>
       <div class="container soundtrack">
          <div class="row">
             <img src="assets/images/play_soundtrack.svg" alt="an image of a speaker and text that reads play soundtrack"
                onclick="playMusic()" id='soundtrack-graphic'>
          </div>
       </div>
-      <div class="container main-heading">
-         <div class="row mt-lg-1 mt-sm-1">
-            <div class="question-number">
-               <span>Question</span> <span id='question-number'>1</span><span>/10</span>
+      </section>
+      <main>
+         <div class="container main-heading">
+            <div class="row mt-lg-1 mt-sm-1">
+               <div class="question-number">
+                  <span>Question</span> <span id='question-number'>1</span><span>/10</span>
+               </div>
+            </div>
+            <div class="row mt-lg-4 mt-sm-1">
+               <div>
+                  <h1 id="question">Which of these Opened in 1984?</h1>
+               </div>
             </div>
          </div>
-         <div class="row mt-lg-4 mt-sm-1">
-            <div>
-               <h1 id="question">Which of these Opened in 1984?</h1>
+         <!-- Three buttons -->
+         <div class="container three-buttons">
+            <div class="transport-icon">
+               <a class="button">
+               <img src="assets/images/dart_button.svg"
+                  alt="button with a picture of the dart on it and illustration of the dart"
+                  onClick="checkAnswer('dart')">
+               </a>
+            </div>
+            <div class="transport-icon">
+               <a class="button">
+               <img src="assets/images/bus_button.svg"
+                  alt="button with a picture of the bus on it and illustration of the bus"
+                  onClick="checkAnswer('bus')">
+               </a>
+            </div>
+            <div class="transport-icon">
+               <a class="button">
+               <img src="assets/images/luas_button.svg"
+                  alt="button with a picture of the luas on it and illustration of the luas"
+                  onClick="checkAnswer('luas')">
+               </a>
             </div>
          </div>
-      </div>
-      <!-- Three buttons -->
-      <div class="container three-buttons">
-         <div class="transport-icon">
-            <a class="button">
-            <img src="assets/images/dart_button.svg"
-               alt="button with a picture of the dart on it and illustration of the dart"
-               onClick="checkAnswer('dart')">
-            </a>
-         </div>
-         <div class="transport-icon">
-            <a class="button">
-            <img src="assets/images/bus_button.svg"
-               alt="button with a picture of the bus on it and illustration of the bus"
-               onClick="checkAnswer('bus')">
-            </a>
-         </div>
-         <div class="transport-icon">
-            <a class="button">
-            <img src="assets/images/luas_button.svg"
-               alt="button with a picture of the luas on it and illustration of the luas"
-               onClick="checkAnswer('luas')">
-            </a>
-         </div>
-      </div>
+      </main>
       <script src="assets/js/constants.js"></script>
       <script src="assets/js/scripts.js"></script>
    </body>

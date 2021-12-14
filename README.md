@@ -152,23 +152,26 @@ For Javascript [JShint](https://jshint.com/)
 
 * W3C Markup Validator of index.html
   * The index.html passed with 0 error
-  ![Index HTML Testing](/assets/images/index_test.png)
+  * There are 3 warnings for lack of h1 elements within sections but I didnt have any in my designs so didnt want to have to include one simply for this reason. Previously I had just not included sections and stuck with Divs to avoid these warnings but I was marked down for lack of semantic markup in my previous submission so have included sections etc here. 
+  ![Index HTML Testing](/assets/images/index_html_validator.png)
 
 * W3C Markup Validator of about.html
   * The about.html passed with 0 error
-  ![About HTML Testing](/assets/images/about_test.png)
+  ![About HTML Testing](/assets/images/about_html_validator.png)
 
 * W3C Markup Validator of quiz.html
-  * The quiz.html passed with 1 warning for not having a H1 inside a section element but the reason I had used a section element here was just to make the colour of the header bleed to full width but have the content inside the grid of the bootstrap container so it had no need for a h element.  
-  ![Quiz HTML Testing](/assets/images/quiz_test.png)
+  * The quiz.html passed with 0 error
+  ![Quiz HTML Testing](/assets/images/quiz_html_validator.png)
 
 * W3C Markup Validator of gameover.html
   * The gameover.html passed with 0 error
-  ![Gameover](/assets/images/gameover_test.png)
+  * There are 3 warnings for lack of h1 elements within sections but I didnt have any h1s in my designs so didnt want to have to include one simply for this reason. Previously I had just not included sections and stuck with Divs to avoid these warnings but I was marked down for lack of semantic markup in my previous submission so have included sections etc here. 
+  ![Gameover](/assets/images/gameover_html_validator.png)
 
 * W3C Markup Validator of quizcomplete.html
   * The quizcomplete.html passed with 0 error
-  ![Quiz Complete](/assets/images/quizcomplete_test.png)
+  * There are 3 warnings for lack of h1 elements within sections but I didnt have any h1s in my designs so didnt want to have to include one simply for this reason. Previously I had just not included sections and stuck with Divs to avoid these warnings but I was marked down for lack of semantic markup in my previous submission so have included sections etc here. 
+  ![Quiz Complete](/assets/images/quiz_complete_html_validator.png)
 
 * W3C CSS Validator 
   * The CSS passed with 0 error

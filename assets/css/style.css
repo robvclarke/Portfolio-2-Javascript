@@ -18,7 +18,7 @@ p, span {
 a, button {
     cursor: pointer !important;
 }
-#header {
+header {
     background-color: #131B42;
     height: 4em;
 }
@@ -409,7 +409,7 @@ footer {
         margin-bottom: 0 !important;
     }
 
-    #header {
+    header {
         background-color: #131B42;
         height: 7em;
     }
