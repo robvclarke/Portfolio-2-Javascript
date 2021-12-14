@@ -2,7 +2,7 @@
 
 ![Am I responsive](/assets/images/am_i_responsive.png)
 
-[Link to live website](https://www.figma.com/file/JGjOtJ32DX9stmCM0YSNvB/Untitled?node-id=27%3A601497)
+[Link to live website](https://robvclarke.github.io/Portfolio-2-Javascript/)
 
 A quiz designed to test your knowledge of Dublin's three key public transport services. The Dart, the Bus and the Luas.
 
