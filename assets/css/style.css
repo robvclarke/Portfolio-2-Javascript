@@ -293,6 +293,19 @@ footer {
     .quizcomplete_img{
         height: 80px;
     }
+    #about_text {
+        margin-top: 2em;
+        margin-left: 20%;
+        margin-bottom: 3em;
+    }
+
+    #about_text > img {
+        margin-top: 1em;
+        margin-bottom: 16px;
+        margin-left: 6%;
+        padding-left: 0;
+        height: 320px;
+    }
 }
 
 
@@ -367,6 +380,19 @@ footer {
     }
     .quizcomplete_img{
         height: 60px;
+    }
+    #about_text {
+        margin-top: 2em;
+        margin-left: 10%;
+        margin-bottom: 3em;
+    }
+
+    #about_text > img {
+        margin-top: 1em;
+        margin-bottom: 16px;
+        margin-left: 6%;
+        padding-left: 0;
+        height: 280px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -512,6 +538,32 @@ footer {
         margin-left: 0em !important;
         padding-left: 0em !important;
     }
+    #about_text {
+        margin-top: 2em;
+        margin-left: 1%;
+        margin-bottom: 3em;
+    }
+
+    #about_text > img {
+        margin-top: 1em;
+        margin-bottom: 16px;
+        margin-left: 6%;
+        padding-left: 0;
+        height: 180px;
+    }
+
+    .external_link {
+        margin-left: 4%;
+        height: 40px;
+    }
+
+    .external_link > a > img {
+        margin-left: 2%;
+        padding-left: 0px;
+        left: 0px;
+        cursor: pointer;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -549,14 +601,15 @@ footer {
 
     #about_text > img {
         margin-top: 1em;
-        margin-bottom: 24px;
-        margin-left: 0;
+        margin-bottom: 16px;
+        margin-left: 6%;
         padding-left: 0;
-        height: 220px;
+        height: 180px;
     }
 
     .external_link {
-        margin-left: 2%;
+        margin-left: 4%;
+        height: 40px;
     }
 
     .external_link > a > img {
@@ -564,6 +617,7 @@ footer {
         padding-left: 0px;
         left: 0px;
         cursor: pointer;
+        height: 30px;
     }
 
     #homepage_text {
