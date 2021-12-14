@@ -46,18 +46,6 @@ a, button {
     margin-left: 40%;
     margin-bottom: 3em;
 }
-#quiz-complete-graphic {
-    bottom: 0px;
-    margin-bottom: 10em;
-    margin-left: 26%;
-}
-#quiz-complete-graphic img {
-    bottom: 0px;
-    margin-bottom: 0em;
-    margin-top: 120px;
-    height: 540px;
-    bottom: 0px;
-}
 #main-logo img {
     height: 20em;
 }
@@ -71,11 +59,6 @@ a, button {
     margin-top: 2em;
     margin-left: 30%;
     margin-right: 30%;
-    margin-bottom: 3em;
-}
-#quiz_success_text {
-    margin-top: 2em;
-    margin-left: 20%;
     margin-bottom: 3em;
 }
 #quizcomplete_text {
@@ -191,6 +174,15 @@ footer {
 #livesfont {
     height: 1.25em;
 }
+.quizcomplete{
+    height: 200px;
+    margin-left: 20%;
+    margin-bottom: 0em;
+    margin-top: 3em;
+}
+.quizcomplete_img{
+    height: 120px;
+}
  .gameover {
      height: 200px;
      margin-left: 40%;
@@ -217,6 +209,18 @@ footer {
  }
 /* Media Querys */
 
+@media screen and (max-width: 1400px) {
+    .quizcomplete{
+        height: 200px;
+        margin-left: 10%;
+        margin-bottom: 0em;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 120px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #homepage_text > img {
         margin-top: 2em;
@@ -226,41 +230,24 @@ footer {
     .three-buttons img {
         height: 8em;
     }
-    #quiz-complete-graphic {
-        bottom: 0px;
-        margin-bottom: 0em;
-        margin-left: 15%;
-    }
-    
-    #quiz-complete-graphic img {
-        bottom: 0px;
-        margin-bottom: 0em;
-        margin-top: 120px;
-        height: 540px;
-        bottom: 0px;
-    }
-    #quiz_success_text {
-        margin-top: 5em;
-        margin-left: 5%;
-        margin-bottom: 1em;
-    }    
-    #quiz_success_text img {
-        height: 91px;
-    }
     .play_again {
         height: 4em;
         margin-left: 50%;
+    }
+    .quizcomplete{
+        height: 200px;
+        margin-left: 10%;
+        margin-bottom: 0em;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 100px;
     }
 }
 @media screen and (max-width: 992px) {
     .three-buttons img {
         height: 6em;
-    }
-    #quiz_success_text {
-        margin-top: 5em;
-        margin-left: 2%;
-        margin-bottom: 1em;
-    }    
+    } 
     #quizcomplete_text {
         margin-top: 2em;
         margin-left: 10%;
@@ -268,14 +255,6 @@ footer {
         margin-bottom: 3em;
         width: 30%;
     }
-    #quiz_success_text {
-        margin-top: 5em;
-        margin-left: 5%;
-        margin-bottom: 1em;
-    }    
-    #quiz_success_text img {
-        height: 70px;
-    } 
     .play_button img{
         margin-right: 0;
         margin-left: 40%;
@@ -304,6 +283,15 @@ footer {
     }
     .michael1_img{
         height: 350px;
+    }
+    .quizcomplete{
+        height: 150px;
+        margin-left: 7%;
+        margin-bottom: 0em;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 80px;
     }
 }
 
@@ -336,14 +324,6 @@ footer {
         margin-bottom: 24px;
         padding-right: 0;
     }
-    #quiz_success_text {
-        margin-top: 5em;
-        margin-left: 3%;
-        margin-bottom: 1em;
-    }    
-    #quiz_success_text img {
-        height: 60px;
-    }  
     .about_button {
         background-color: transparent !important;
         border: none;
@@ -379,6 +359,14 @@ footer {
     }
     .final-score {
         margin-bottom: 2em;
+    }
+    .quizcomplete{
+        height: 200px;
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 60px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -423,14 +411,6 @@ footer {
     .bottom-row img{
         margin-top: 2px !important;
     }
-    #quiz_success_text {
-        margin-top: 5em;
-        margin-left: 5%;
-        margin-bottom: 1em;
-    }    
-    #quiz_success_text img {
-        height: 50px;
-    }  
     .play_button img{
         margin-right: 0;
         margin-top: 24px;
@@ -462,19 +442,6 @@ footer {
         cursor: pointer;
         margin-left: 35%;
     }
-    #quiz-complete-graphic {
-        bottom: 0px;
-        margin-bottom: 0em;
-        margin-left: 0%;
-    }
-
-    #quiz-complete-graphic img {
-        bottom: 0px;
-        margin-bottom: 0em;
-        margin-top: 200px;
-        height: 500px;
-        bottom: 0px;
-    }
     .gameover {
         height: 200px;
         margin-left: 13%;
@@ -504,9 +471,48 @@ footer {
     .final-score {
         margin-bottom: 2em;
     }
+    .quizcomplete{
+        height: 100px;
+        margin-left: 5%;
+        margin-bottom: 0em;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 45px;
+    }
 }
-
-
+@media screen and (max-width: 414px) {
+    .quizcomplete{
+        height: 50px;
+        margin-left: 15%;
+        margin-bottom: 0em;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 30px;
+    }
+    .gameover {
+        height: 120px;
+        margin-left: 12%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .gameover_image {
+       height: 120px;
+    }
+    #homepage_text > img {
+        margin-top: 1em;
+        margin-bottom: 12px;
+        margin-left: 24px;
+        padding-left: 0;
+        height: 35px;
+    }
+    #main-logo img {
+        height: 12em;
+        margin-left: 0em !important;
+        padding-left: 0em !important;
+    }
+}
 
 @media screen and (max-width: 375px) {
     body {
@@ -564,28 +570,6 @@ footer {
         margin-left: .5em !important;
         margin-top: 1em !important;
         margin-bottom: 0 !important;
-    }
-    #quiz-complete-graphic {
-        bottom: 0px;
-        margin-bottom: 0em;
-        margin-left: 3%;
-    }
-
-    #quiz_success_text {
-        margin-top: 5em;
-        margin-left: 2%;
-        margin-bottom: 1em;
-    }    
-    #quiz_success_text img {
-        height: 40px;
-    }  
-
-    #quiz-complete-graphic img {
-        bottom: 0px;
-        margin-bottom: 0em;
-        margin-top: 150px;
-        height: 300px;
-        bottom: 0px;
     }
     #header {
         background-color: #131B42;
@@ -669,6 +653,15 @@ footer {
     }
     .final-score {
         margin-bottom: 1em;
+    }
+    .quizcomplete{
+        height: 50px;
+        margin-left: 5%;
+        margin-bottom: 0em;
+        margin-top: 3em;
+    }
+    .quizcomplete_img{
+        height: 30px;
     }
 }
 
