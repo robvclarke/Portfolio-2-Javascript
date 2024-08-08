@@ -1,7 +1,9 @@
 /* Import Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
 
 /* CSS for Desktop */
+
 body {
     overflow-x: hidden !important;
 }
@@ -11,7 +13,7 @@ body {
 }
 
 p, span {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace; ;
 }
 a, button {
     cursor: pointer !important;
@@ -20,14 +22,14 @@ header {
     background-color: #131B42;
     height: 4em;
 }
-#home_background {
+#home_background{
     background-image: url('../images/home_background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
     top: 0%;
-    bottom: 0%;
-    left: 0%;
+    bottom:0%;
+    left:0%;
     right: 0%;
     width: 100vw;
     height: 100vh;
@@ -80,8 +82,8 @@ header {
     margin-top: 12px;
     text-align: center;
 }
-.col.score {
-    color: white;
+.col.score{
+    color:white;
     padding-top: 1.2em;
     font-family: 'Roboto Mono', monospace;
 }
@@ -91,16 +93,15 @@ header {
 #soundtrack-graphic {
     margin-top: 24px;
     height: 32px;
-    cursor: pointer;
+    cursor: pointer;   
 }
 .play_button {
     background-color: transparent !important;
     border: none;
+    margin-right: 0;
+    padding-right: 0;
     text-align: center;
     cursor: pointer;
-    display: flex;
-    justify-content: flex-end; /* Right align within the column */
-    align-items: center;
 }
 .back_button img {
     text-align: center;
@@ -108,37 +109,24 @@ header {
     margin-left: 45%;
     margin-top: 2em;
 }
-/* Ensure the images within buttons are centrally aligned */
-.play_button img,
-.about_button img {
-    display: block;
-    margin: 0 auto;
+.play_button img{
+    margin-right: 0;
+    margin-left: 60%;
+    padding-right: 0;
 }
-
-/* Align about_button within its column */
 .about_button {
     background-color: transparent !important;
     border: none;
+    margin-left: 5%;
     text-align: center;
     cursor: pointer;
-    display: flex;
-    justify-content: flex-start; /* Left align within the column */
-    align-items: center;
 }
-
-/* Flex container to handle the alignment of the columns */
-.row.justify-content-center {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Adjust the gap as needed */
-}
-
 .quiz, .question {
     background-image: url('../images/best_landscape.jpg');
     font-family: 'Roboto Mono', monospace;
     overflow-x: hidden !important;
 }
-#question_one, .question-score {
+#question_one , .question-score {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
@@ -148,7 +136,7 @@ header {
 .three-buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;   
     margin-top: 3em;
 }
 .transport-icon {
@@ -179,7 +167,7 @@ footer {
     bottom: 0%;
 }
 .bottom-row {
-    margin-left: 23%;
+    margin-left: 23%;   
 }
 .bottom-row {
     margin-top: 24px !important;
@@ -187,49 +175,49 @@ footer {
 #livesfont {
     height: 1.25em;
 }
-.quizcomplete {
+.quizcomplete{
     height: 200px;
     margin-left: 20%;
     margin-bottom: 0em;
     margin-top: 3em;
 }
-.quizcomplete_img {
+.quizcomplete_img{
     height: 120px;
 }
-.gameover {
-    height: 200px;
-    margin-left: 40%;
-    margin-bottom: 3em;
-    margin-top: 6em;
-}
-.gameover_image {
+ .gameover {
+     height: 200px;
+     margin-left: 40%;
+     margin-bottom: 3em;
+     margin-top: 6em;
+ }
+ .gameover_image {
     height: 150px;
-}
-.play_again {
+ }
+ .play_again {
+     height: 4em;
+     margin-left: 60%;
+ }
+ .quit {
     height: 4em;
-    margin-left: 60%;
-}
-.quit {
-    height: 4em;
-}
-.michael1 {
-    height: 400px;
-    margin-left: 35%;
-    margin-top: 2em;
-}
-.michael1_img {
-    height: 350px;
-}
+ }
+ .michael1 {
+     height: 400px;
+     margin-left: 35%;
+     margin-top: 2em;
+ }
+ .michael1_img{
+     height: 350px;
+ }
+/* Media Querys */
 
-/* Media Queries */
 @media screen and (max-width: 1400px) {
-    .quizcomplete {
+    .quizcomplete{
         height: 200px;
         margin-left: 10%;
         margin-bottom: 0em;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 120px;
     }
 }
@@ -247,21 +235,20 @@ footer {
         height: 4em;
         margin-left: 50%;
     }
-    .quizcomplete {
+    .quizcomplete{
         height: 200px;
         margin-left: 10%;
         margin-bottom: 0em;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 100px;
     }
 }
-
 @media screen and (max-width: 992px) {
     .three-buttons img {
         height: 6em;
-    }
+    } 
     #quizcomplete_text {
         margin-top: 2em;
         margin-left: 10%;
@@ -269,11 +256,11 @@ footer {
         margin-bottom: 3em;
         width: 30%;
     }
-    .play_button img {
+    .play_button img{
         margin-right: 0;
-        margin-left: auto;
+        margin-left: 40%;
         padding-right: 0;
-    }
+    } 
     .gameover {
         height: 200px;
         margin-left: 30%;
@@ -281,30 +268,30 @@ footer {
         margin-top: 6em;
     }
     .gameover_image {
-        height: 150px;
+       height: 150px;
     }
     .play_again {
         height: 4em;
         margin-left: 20%;
     }
     .quit {
-        height: 4em;
+       height: 4em;
     }
     .michael1 {
         height: 400px;
         margin-left: 30%;
         margin-top: 2em;
     }
-    .michael1_img {
+    .michael1_img{
         height: 350px;
     }
-    .quizcomplete {
+    .quizcomplete{
         height: 150px;
         margin-left: 7%;
         margin-bottom: 0em;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 80px;
     }
     #about_text {
@@ -312,6 +299,7 @@ footer {
         margin-left: 20%;
         margin-bottom: 3em;
     }
+
     #about_text > img {
         margin-top: 1em;
         margin-bottom: 16px;
@@ -320,6 +308,7 @@ footer {
         height: 320px;
     }
 }
+
 
 @media screen and (max-width: 768px) {
     #homepage_text > img {
@@ -342,7 +331,7 @@ footer {
     .three-buttons img {
         height: 7em;
     }
-    .play_button img {
+    .play_button img{
         margin-right: 0;
         margin-top: 24px;
         margin-left: 30%;
@@ -363,7 +352,7 @@ footer {
         margin-top: 6em;
     }
     .gameover_image {
-        height: 150px;
+       height: 150px;
     }
     .play_again {
         height: 4em;
@@ -371,26 +360,26 @@ footer {
         margin-bottom: 1em;
     }
     .quit {
-        height: 4em;
-        margin-left: 30%;
+       height: 4em;
+       margin-left: 30%;
     }
     .michael1 {
         height: 400px;
         margin-left: 30%;
         margin-top: 2em;
     }
-    .michael1_img {
+    .michael1_img{
         height: 350px;
     }
     .final-score {
         margin-bottom: 2em;
     }
-    .quizcomplete {
+    .quizcomplete{
         height: 200px;
         margin-left: 5%;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 60px;
     }
     #about_text {
@@ -398,6 +387,7 @@ footer {
         margin-left: 10%;
         margin-bottom: 3em;
     }
+
     #about_text > img {
         margin-top: 1em;
         margin-bottom: 16px;
@@ -406,7 +396,6 @@ footer {
         height: 280px;
     }
 }
-
 @media screen and (max-width: 576px) {
     #homepage_text > img {
         margin-top: 2em;
@@ -419,22 +408,26 @@ footer {
         margin-left: 5em !important;
         margin-bottom: 0 !important;
     }
+
     header {
         background-color: #131B42;
         height: 7em;
     }
+
     .main-heading {
         text-align: center;
         margin-top: 1em;
     }
+
     .question-score {
         margin-bottom: 1em;
     }
+    
     .three-buttons {
         margin-top: 1em;
     }
     .three-buttons img {
-        height: 7em;
+        height: 7em;  
     }
     .transport-icon {
         padding: .5em;
@@ -442,17 +435,17 @@ footer {
     .bottom-row {
         margin-left: 0%;
     }
-    .bottom-row img {
+    .bottom-row img{
         margin-top: 2px !important;
     }
-    .play_button img {
+    .play_button img{
         margin-right: 0;
         margin-top: 24px;
         margin-left: 30%;
         margin-bottom: 24px;
         padding-right: 0;
     }
-    .question h1 {
+    .question h1{
         font-size: small !important;
     }
     #about_text {
@@ -483,7 +476,7 @@ footer {
         margin-top: 6em;
     }
     .gameover_image {
-        height: 150px;
+       height: 150px;
     }
     .play_again {
         height: 4em;
@@ -491,39 +484,38 @@ footer {
         margin-bottom: 1em;
     }
     .quit {
-        height: 4em;
-        margin-left: 20%;
+       height: 4em;
+       margin-left: 20%;
     }
     .michael1 {
         height: 400px;
         margin-left: 10%;
         margin-top: 2em;
     }
-    .michael1_img {
+    .michael1_img{
         height: 350px;
     }
     .final-score {
         margin-bottom: 2em;
     }
-    .quizcomplete {
+    .quizcomplete{
         height: 100px;
         margin-left: 5%;
         margin-bottom: 0em;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 45px;
     }
 }
-
 @media screen and (max-width: 414px) {
-    .quizcomplete {
+    .quizcomplete{
         height: 50px;
         margin-left: 15%;
         margin-bottom: 0em;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 30px;
     }
     .gameover {
@@ -533,7 +525,7 @@ footer {
         margin-top: 1em;
     }
     .gameover_image {
-        height: 120px;
+       height: 120px;
     }
     #homepage_text > img {
         margin-top: 1em;
@@ -552,6 +544,7 @@ footer {
         margin-left: 1%;
         margin-bottom: 3em;
     }
+
     #about_text > img {
         margin-top: 1em;
         margin-bottom: 16px;
@@ -559,10 +552,12 @@ footer {
         padding-left: 0;
         height: 180px;
     }
+
     .external_link {
         margin-left: 4%;
         height: 40px;
     }
+
     .external_link > a > img {
         margin-left: 2%;
         padding-left: 0px;
@@ -580,13 +575,13 @@ footer {
         max-width: 100% !important;
         overflow-x: hidden !important;
     }
-    #home_background {
+    #home_background{
         background-image: url('../images/home_background.svg');
         background-repeat: no-repeat;
         background-size: cover;
         top: 0%;
-        bottom: 0%;
-        left: 0%;
+        bottom:0%;
+        left:0%;
         right: 0%;
         max-width: 375px;
         max-height: 700px
@@ -598,11 +593,13 @@ footer {
         padding-left: 0;
         height: 35px;
     }
+
     #about_text {
         margin-top: 2em;
         margin-left: 1%;
         margin-bottom: 3em;
     }
+
     #about_text > img {
         margin-top: 1em;
         margin-bottom: 16px;
@@ -610,10 +607,12 @@ footer {
         padding-left: 0;
         height: 180px;
     }
+
     .external_link {
         margin-left: 4%;
         height: 40px;
     }
+
     .external_link > a > img {
         margin-left: 2%;
         padding-left: 0px;
@@ -621,6 +620,7 @@ footer {
         cursor: pointer;
         height: 30px;
     }
+
     #homepage_text {
         margin-left: .5em !important;
         margin-top: 1em !important;
@@ -648,22 +648,24 @@ footer {
     }
     .three-buttons img {
         height: 4em;
-        margin-left: 1.5em;
+        margin-left: 1.5em;  
     }
     .transport-icon {
         padding: .5em;
     }
-    .play_button img {
+  
+    .play_button img{
         margin-right: 0;
         margin-top: 24px;
         margin-left: 20%;
         margin-bottom: 24px;
         padding-right: 0;
     }
-    .about_button {
+    .about_button{
         margin-left: 20%;
     }
-    .question, h1 {
+    
+    .question, h1{
         font-size: 20px !important;
     }
     #main-logo img {
@@ -684,7 +686,7 @@ footer {
         margin-top: 1em;
     }
     .gameover_image {
-        height: 120px;
+       height: 120px;
     }
     .play_again {
         height: 4em;
@@ -692,28 +694,33 @@ footer {
         margin-bottom: 1em;
     }
     .quit {
-        height: 4em;
-        margin-left: 5%;
+       height: 4em;
+       margin-left: 5%;
     }
     .michael1 {
         height: 400px;
         margin-left: 12%;
         margin-top: 1em;
     }
-    .michael1_img {
+    .michael1_img{
         height: 200px;
         margin-left: 3%;
     }
     .final-score {
         margin-bottom: 1em;
     }
-    .quizcomplete {
+    .quizcomplete{
         height: 50px;
         margin-left: 5%;
         margin-bottom: 0em;
         margin-top: 3em;
     }
-    .quizcomplete_img {
+    .quizcomplete_img{
         height: 30px;
     }
 }
+
+
+
+
+
