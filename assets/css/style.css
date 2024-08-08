@@ -208,6 +208,24 @@ footer {
  .michael1_img{
      height: 350px;
  }
+ .quitButton{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px; /* Margin above the button */
+    border: none;
+    border-radius: 5px; /* Example border radius */
+    cursor: pointer;
+    font-size: 24px;
+ }
+
+ .quit-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Margin above the button */
+}
+
 /* Media Querys */
 
 @media screen and (max-width: 1400px) {
