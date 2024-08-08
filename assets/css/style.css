@@ -96,10 +96,11 @@ header {
 .play_button {
     background-color: transparent !important;
     border: none;
-    margin-right: 0;
-    padding-right: 0;
     text-align: center;
     cursor: pointer;
+    display: flex;
+    justify-content: flex-end; /* Right align within the column */
+    align-items: center;
 }
 .back_button img {
     text-align: center;
@@ -107,22 +108,21 @@ header {
     margin-left: 45%;
     margin-top: 2em;
 }
-/* Remove conflicting margins for play_button img */
-.play_button img {
+/* Ensure the images within buttons are centrally aligned */
+.play_button img,
+.about_button img {
     display: block;
     margin: 0 auto;
 }
-/* Remove conflicting margins for about_button */
+
+/* Align about_button within its column */
 .about_button {
     background-color: transparent !important;
     border: none;
     text-align: center;
     cursor: pointer;
-}
-/* Center the buttons within the columns */
-.play_button, .about_button {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Left align within the column */
     align-items: center;
 }
 
